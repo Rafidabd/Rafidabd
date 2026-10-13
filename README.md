@@ -13,8 +13,8 @@ An evolving Python and Flask project for studying student performance, academic 
 
 | Project | What I explored |
 | --- | --- |
-| **[Student Performance Tracker](https://github.com/Rafidabd/python-phase-1/tree/main/day13_Mini_Projects/student-performance-tracker)** | Student records, rankings, grade analysis, Matplotlib visualizations, and CSV export |
-| **[Expense Tracker CLI](https://github.com/Rafidabd/python-phase-1/tree/main/day13_Mini_Projects/expense-tracker-cli)** | Modular Python, input validation, JSON persistence, and category-wise spending analysis |
+| **[Student Performance Tracker](https://github.com/Rafidabd/student-performance-tracker)** | Student records, rankings, grade analysis, Matplotlib visualizations, and CSV export |
+| **[Expense Tracker CLI](https://github.com/Rafidabd/expense-tracker-cli)** | Modular Python, input validation, JSON persistence, and category-wise spending analysis |
 | **[Python learning archive](https://github.com/Rafidabd/python-phase-1)** | Fundamentals, file handling, structured data, recursion, and the transition from exercises to projects |
 
 ### Tools I've been using
