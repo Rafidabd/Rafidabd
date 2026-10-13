@@ -1,6 +1,6 @@
 # Hi, I'm Rafid 👋
 
-I'm a student developer from Bangladesh. I enjoy building Python applications that turn messy information into something people can actually use—especially in education.
+I'm a student developer from Bangladesh. I enjoy building Python applications that turn messy information into something people can actually use,especially in education.
 
 My projects have grown from small programming exercises into modular command-line tools and a larger, ongoing academic analytics system.
 
