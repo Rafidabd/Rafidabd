@@ -14,13 +14,13 @@ The research page has the [short brief](research/when-80/BRIEF.md), [methods](re
 
 ### What I'm building
 
-**Bangladesh Academic Analytics System** (in development)
+**[Bangladesh Academic Analytics System](projects/bangladesh-academic-analytics-system/README.md)** (in development)
 
 This started as a Python CLI for storing and analyzing student results. I later moved it to Flask and began building a web interface around it. It handles academic histories, trends, risk flags, heuristic predictions and other analyses.
 
 I'm also working on an Admission Prep section, with course topics, schedules, assessments and error tracking. I've used HTML, CSS, JavaScript and Jinja templates along the way.
 
-The latest local version isn't fully public yet. The older copy is in my private Python archive, and I'm checking the files before publishing a separate code repository.
+A cleaned [code snapshot](projects/bangladesh-academic-analytics-system/README.md) is public now. It doesn't include every change from my local version.
 
 ### Other projects
 
