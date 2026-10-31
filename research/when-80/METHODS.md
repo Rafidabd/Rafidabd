@@ -1,6 +1,6 @@
 # Method notes
 
-*Working plan, not a completed analysis or preregistration. Updated October 31, 2026.*
+*Method for the first exploratory comparison, with further checks still underway. Updated October 31, 2026.*
 
 ## Records and measures
 
@@ -10,19 +10,19 @@ Each report contains weighted combined results, which reuse quiz marks and somet
 
 ## Data handling
 
-Each extracted row will identify an anonymous participant code, department, subject/paper, assessment, quiz/major-exam type, mark and maximum mark. Missing or illegible values will be recorded rather than guessed.
+Each extracted row identifies an anonymous participant code, department, subject/paper, assessment, quiz/major-exam type, mark and maximum mark. Missing or illegible values will be recorded rather than guessed.
 
-As of October 31, 2026, records have been received from 35 students. I still need to confirm how many records are complete and how many students can be matched for each assessment pair.
+As of October 31, 2026, I've received records from 35 students. The first analysis uses 20 histories traceable to report cards in my working files. Generated test histories and further offline records awaiting source reconciliation were left out of the calculation. Matched groups for eligible quiz pairs contained 14–18 students.
 
 Report-card photos and original Google Form responses will stay in restricted storage. Google Forms sign-in for uploads doesn't make the collection process fully anonymous. No report cards, names, IDs, participant-level marks or response screenshots are being published here.
 
 ## How I'll compare scores
 
-I'll start with pairs of quizzes in the **same subject and paper**. For each pair, I will use students who have valid marks for **both** quizzes. That matters: if one quiz has a different set of students, a change in the sample average might reflect who is included rather than a change in the assessment.
+The first analysis compares consecutive pairs of quizzes in the **same subject and report period**. For each pair, I used students who had valid marks for **both** quizzes. That matters: if one quiz has a different set of students, a change in the sample average might reflect who is included rather than a change in the assessment.
 
 1. **Raw marks:** convert scores to percentages where the maximum marks are known; note whether each student's mark rose or fell.
-2. **Relative standing:** compare each mark with the distribution of scores for those *same participating students* on each quiz. I plan to check both standardized scores and percentiles, where the group is large enough for those comparisons to be useful.
-3. **Different directions:** count occasions when raw marks rise while relative standing falls, or the reverse. I'll set rules for ties and very small changes before calculating these counts.
+2. **Relative standing:** compare each mark with the distribution of scores for those *same participating students* on each quiz. I checked both standardized scores and midpoint percentiles, using scores only where the matched group had usable variation.
+3. **Different directions:** count occasions when raw marks rise while relative standing falls, or the reverse. I assigned tied marks a midpoint percentile rank. Comparisons with no change in either measure did not enter the directional denominator.
 
 If too few students have matching marks for a subject or quiz pair, I'll leave it out rather than report a shaky comparison. Quiz-to-major comparisons and first-to-second-paper comparisons need separate treatment.
 
@@ -30,11 +30,11 @@ If too few students have matching marks for a subject or quiz pair, I'll leave i
 
 For each comparable pair of quizzes, I'll record whether the raw percentage and the chosen relative-standing measure went up, down or stayed the same for each student.
 
-A **directional disagreement** is when one rises while the other falls. Ties and very small changes will be reported separately instead of being forced into an increase or decrease. I'll settle any tolerance rules before calculating the result, so I don't choose a cutoff just because it makes the graph more interesting.
+A **directional disagreement** is when one rises while the other falls. Ties and very small changes will be reported separately instead of being forced into an increase or decrease. I calculated the main result using nonzero changes in both measures, then checked sensitivity with a minimum of five marks and ten percentile points.
 
 For standardized scores, I need a usable spread of marks; if everyone in the matched group has the same score, the standard deviation is zero and a z-score cannot be calculated. Percentiles may also be coarse or tied in a small group. The write-up will say when those comparisons aren't informative.
 
-The output will include the number of **students**, the number of eligible **quiz pairs**, and the number of **student-level paired changes**. Several observations from one student are not the same as several independent participants. Initially, I'll describe the patterns rather than treating every change as independent evidence for a statistical test.
+The [first results](RESULTS.md) report the number of **students**, the number of eligible **quiz pairs**, and the number of **student-level paired changes**. Several observations from one student are not the same as several independent participants. The pilot describes patterns rather than treating every change as independent evidence for a statistical test.
 
 ## Checks before conclusions
 
