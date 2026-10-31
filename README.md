@@ -14,11 +14,11 @@ Most of my coding time goes into student performance and education. Outside of t
 
 ### How one led to the other
 
-My analytics program once estimated that I'd score at least 80 on a mathematics quiz. I scored 55, which turned out to be the highest mark in my group.
+My analytics program once estimated that I'd score at least 80 on a mathematics quiz. I scored 65, which turned out to be the highest mark in my group.
 
 It was a pretty good reminder that a prediction can be wrong for reasons the code doesn't understand. I had been comparing marks across exams without paying enough attention to how different the exams themselves could be.
 
-That's what led me to start *When 80 Doesn't Mean the Same*. I've received academic records from 35 students in NDC's HSC 2026 cohort. My first comparison uses 20 histories traceable to report cards: in 148 of 814 matched quiz comparisons where both measures changed, raw marks and relative standing moved in opposite directions (18.2%). It's an early result, not a finding about the entire college.
+That's what led me to start *When 80 Doesn't Mean the Same*. I've been collecting report cards and older marks from NDC's HSC 2026 batch. My first public analysis uses 20 histories I could trace to supplied report cards: in 148 of 814 matched quiz comparisons where both measures changed, raw marks and relative standing moved in opposite directions (18.2%). I have more marks from handwritten notes, but I haven't included them in that calculation yet. It's an early result, not a finding about the entire college.
 
 [Research website](https://rafidabd.github.io/Rafidabd/when-80/) · [First results](research/when-80/RESULTS.md) · [Read the method](research/when-80/METHODS.md) · [See the progress notes](research/when-80/PROGRESS.md)
 
