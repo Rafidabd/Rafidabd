@@ -38,8 +38,8 @@ The data files start empty. Add fictional records locally to try the app.
 
 ## Why I started researching the problem
 
-My system once estimated at least 80 on an upcoming mathematics quiz. I scored 55, but it was the highest mark in my group. That made me think harder about whether raw marks from different exams can be compared directly.
+My system once estimated at least 80 on an upcoming mathematics quiz. I scored 65, but it was the highest mark in my group. That made me think harder about whether raw marks from different exams can be compared directly.
 
-I'm now collecting historical NDC HSC 2026 report cards for **When 80 Doesn't Mean the Same**, a study comparing raw-score trends with students' relative standing in shared assessments. The analysis is still in progress and **is not a validated feature in this code**.
+I've begun a small study with historical NDC HSC 2026 report cards, **When 80 Doesn't Mean the Same**, comparing raw-score trends with students' standing in the same quiz groups. The first pilot uses 20 report-card-backed histories. This research is ongoing and **has not been integrated into the software as a validated feature**.
 
-[Research page](https://github.com/Rafidabd/Rafidabd/tree/main/research/when-80)
+[Research website](https://rafidabd.github.io/Rafidabd/when-80/) · [First results](../../research/when-80/RESULTS.md)
