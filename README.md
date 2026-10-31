@@ -39,6 +39,6 @@ I mostly work in **Python**, with **Flask, HTML, CSS, JavaScript, Jinja2, JSON a
 
 ## Away from the keyboard
 
-Chess has been a constant for me, from playing tournaments to helping run them. I joined the Notre Dame Chess Club as a volunteer and later became its president. Running events taught me a different kind of problem-solving: keeping people informed, making decisions when plans change, and getting everyone through the day.
+Chess has been a big part of my life outside coding. I joined the Notre Dame Chess Club as a volunteer and eventually became its president, which meant a lot of time organizing tournaments, working with volunteers and handling last-minute changes. I've also taken part in debates, math and English olympiads, played football as a goalkeeper and helped with student publications.
 
 I'm still learning a lot, and I like having the earlier projects here alongside the newer ones. They show how I got from small Python exercises to problems I now want to spend much more time on.
