@@ -24,7 +24,7 @@ The first analysis compares consecutive pairs of quizzes in the **same subject a
 2. **Relative standing:** compare each mark with the distribution of scores for those *same participating students* on each quiz. I checked both standardized scores and midpoint percentiles, using scores only where the matched group had usable variation.
 3. **Different directions:** count occasions when raw marks rise while relative standing falls, or the reverse. I assigned tied marks a midpoint percentile rank. Comparisons with no change in either measure did not enter the directional denominator.
 
-If too few students have matching marks for a subject or quiz pair, I'll leave it out rather than report a shaky comparison. Quiz to major comparisons and comparisons between first and second year papers need separate treatment.
+If too few students have matching marks for a subject or quiz pair, I'll leave it out rather than report a shaky comparison. Comparing quizzes with major exams, or first year papers with second year papers, needs separate treatment.
 
 ## Deciding what counts as a disagreement
 
