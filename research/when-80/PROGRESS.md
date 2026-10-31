@@ -10,8 +10,8 @@ One thing I had to sort out early was how NDC calculates its report-card totals.
 
 I'm also being careful about what the comparisons can show. A lower class average might be related to a harder paper, but that isn't something I can prove from these records alone. And a student's standing among the people who shared their marks isn't the same as their official NDC position.
 
-The data is still being prepared, so I haven't posted any findings. I want to compare changes in raw marks with changes in relative standing using the same students in both assessments, then see where the two tell different stories.
+I've now run an initial descriptive comparison using the 20 histories I can trace to supplied report cards. Across 814 comparisons where both the raw score and sample-relative standing changed, they moved in opposite directions 148 times (18.2%). I'm treating this as a pilot result, not a conclusion about the entire college. The [results note](RESULTS.md) explains the calculation and its limits.
 
 The report cards and student-level spreadsheet are private. I have a separate working copy for software tests, but generated example records aren't research observations.
 
-[Read about the data](DATA.md) · [Research overview](README.md) · [Method notes](METHODS.md)
+[Read the first results](RESULTS.md) · [Read about the data](DATA.md) · [Research overview](README.md) · [Method notes](METHODS.md)
