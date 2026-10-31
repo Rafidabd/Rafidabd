@@ -8,9 +8,9 @@
 
 My academic analytics program once predicted I would score at least 80 on a mathematics quiz. I scored 65, the highest in my group. That result led me to ask whether falling marks always mean a student has fallen behind others taking the same assessments.
 
-For this first analysis, I transcribed quiz scores from 20 histories traced to report cards from Notre Dame College's HSC 2026 batch. I compared consecutive quizzes within the same subject and report period, keeping only students with numerical marks for both quizzes. I then compared each student's raw score change with the change in their percentile position among those same students, assigning tied scores a midpoint rank.
+For this first analysis, I transcribed quiz scores from report cards belonging to 20 students in Notre Dame College's HSC 2026 batch. I compared consecutive quizzes within the same subject and report period, keeping only students with numerical marks for both quizzes. I then compared each student's raw score change with the change in their percentile position among those same students, assigning tied scores a midpoint rank.
 
-Across 57 eligible quiz pairs, there were 936 matched matched comparisons between student scores. Both measures changed in 814; **148 (18.2%) moved in opposite directions**. With minimum changes of five marks and ten percentile points, the count was 79 of 628 qualifying comparisons (12.6%). Using standardized scores, it was 142 of 850 (16.7%).
+Across 57 eligible quiz pairs, there were 936 matched comparisons of individual students' quiz marks. Both measures changed in 814; **148 (18.2%) moved in opposite directions**. With minimum changes of five marks and ten percentile points, the count was 79 of 628 qualifying comparisons (12.6%). Using standardized scores, it was 142 of 850 (16.7%).
 
 The finding shows a difference between two ways of describing progress in this small participating group. It does not establish examination difficulty or show that relative standing is more accurate or fairer. The observations repeat across the same students, and the sample is small and drawn from volunteers. No estimate for the whole population or significance test is claimed.
 
