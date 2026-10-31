@@ -14,27 +14,29 @@ Each extracted row will identify an anonymous participant code, department, subj
 
 Report-card photos and original Google Form responses will stay in restricted storage. Google Forms sign-in for uploads doesn't make the collection process fully anonymous. No report cards, names, IDs, participant-level marks or response screenshots are being published here.
 
-## Main comparison
+## How I'll compare scores
 
-1. **Raw scores:** use percentages only when the maximum possible marks are known. Compare consecutive suitable assessments in the same subject/paper.
-2. **Sample-relative standing:** compare each score with the distribution of the **participating students** on that particular assessment. Z-scores and empirical percentiles are candidates, not validated study findings.
-3. **Disagreement:** identify times when raw scores rise but relative standing falls, or vice versa. Decide how to handle ties and tiny changes before looking at outcomes.
+I'll start with pairs of quizzes in the **same subject and paper**. For each pair, I will use students who have valid marks for **both** quizzes. That matters: if one quiz has a different set of students, a change in the sample average might reflect who is included rather than a change in the assessment.
 
-I'll focus first on comparable quizzes. Quiz-to-major comparisons and first-to-second-paper comparisons require separate treatment.
+1. **Raw marks:** convert scores to percentages where the maximum marks are known; note whether each student's mark rose or fell.
+2. **Relative standing:** compare each mark with the distribution of scores for those *same participating students* on each quiz. I plan to check both standardized scores and percentiles, where the group is large enough for those comparisons to be useful.
+3. **Different directions:** count occasions when raw marks rise while relative standing falls, or the reverse. I'll set rules for ties and very small changes before calculating these counts.
+
+If too few students have matching marks for a subject or quiz pair, I'll leave it out rather than report a shaky comparison. Quiz-to-major comparisons and first-to-second-paper comparisons need separate treatment.
 
 ## Checks before conclusions
 
 - Confirm unique participant count, complete/legible reports and permission to use records.
 - Verify quiz labels, chronology, subject identity and score maxima.
-- Report how many participants contribute to **each** assessment distribution. Thirty submissions do not mean thirty usable scores in every subject.
-- Check the results under alternative relative-standing methods and with incomplete histories excluded.
+- Report how many students can be matched in **each pair** of assessments. Thirty submissions do not mean thirty usable scores in every subject.
+- See whether the overall picture changes with percentiles instead of standardized scores, and after leaving out incomplete histories.
 - Report the number of students as well as the number of paired changes. Repeated observations from one student are not independent participants.
 - Ask a statistics/education mentor to check the method before external submission.
 
 Retrospective prediction benchmarking may be considered later, but it has **not** been carried out. It would require preventing future information from entering earlier predictions.
 
-## What this cannot establish
+## Limits of the comparison
 
-The sample cannot establish the true difficulty of an exam, changes in latent ability, causes of score differences or nationally representative trends. Disagreement between two score descriptions doesn't prove one is more accurate.
+A lower average doesn't necessarily mean an exam was harder. It could also reflect preparation, marking, the material tested or who submitted records. Relative standing in this sample is not an official college rank.
 
-No research results, references, professor review or publication status will be added without evidence. Before any journal submission, the target venue's ethics, consent and AI-use requirements must be checked.
+The study can show where two descriptions of performance disagree. It cannot tell me a student's underlying ability or which description is automatically more useful. The participants are from one college, so I won't treat the findings as representative of Bangladesh.

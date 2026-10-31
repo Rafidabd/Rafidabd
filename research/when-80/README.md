@@ -8,7 +8,7 @@
 
 An early version of my academic analytics system predicted that I'd score at least 80 on my next mathematics quiz. I got 55. It was the highest score in my group.
 
-The prediction missed something important: a mark doesn't tell the whole story when the examination itself changes. That made me question the way I'd been comparing results across different exams.
+The prediction made me wonder what I'd missed. I couldn't tell from the mark alone whether I was doing worse, or whether that particular quiz had been different. That question stayed with me as I kept building the program.
 
 ## What I'm trying to find out
 
@@ -22,13 +22,13 @@ The study uses historical records from NDC's **HSC 2026 cohort**. I'm collecting
 
 NDC has three departments—Science, Humanities and Business Studies—with different subject combinations. I'll make comparisons within suitable departments, subjects and papers rather than mixing unrelated exams.
 
-**Progress on October 31, 2026:** I have reported receiving records from **30 students**. I haven't completed the checks for duplicates, legibility, missing marks and usable comparisons, so I'm not publishing an analyzed sample size or findings yet.
+**Progress on October 31, 2026:** I've received records from **30 students**. I'm still checking the submissions for readable marks, missing entries and overlap between assessments. I haven't calculated the study's results yet.
 
 ## Planned analysis
 
 1. Separate the **actual quiz and exam marks** from the **weighted totals** on the report cards. The totals reuse earlier assessment components and cannot be treated as separate independent exams.
 2. Reconstruct subject-by-subject histories and compare like with like wherever possible.
-3. For each shared assessment with enough readable records, compare scores with the distribution **in the participating sample**. Standardized scores and percentiles are candidates.
+3. For each pair of comparable quizzes, use the **same participating students** to calculate relative standing in each assessment. Standardized scores and percentiles are two measures I plan to compare.
 4. Count cases where raw marks and relative standing change in different directions. Then check whether those cases depend on missing data or the comparison method.
 
 These are planned steps, not completed results. Details and open decisions are in the [methods note](METHODS.md).
@@ -43,8 +43,8 @@ This is a single-institution study. I won't use it to make claims about all Bang
 
 This question came out of building my **Bangladesh Academic Analytics System**, a Python/Flask project for storing academic histories and analyzing performance over time. It has modules for history, trends, risk, heuristic prediction and more. The research is a way to question an assumption behind parts of that work: that scores from different assessments can be compared directly.
 
-The latest software source isn't fully public yet. I'm preparing a separate, privacy-reviewed code release.
+The latest software version isn't public yet. I want to check its sample data and setup instructions before releasing the code.
 
 **Read:** [One-page brief](BRIEF.md) · [Method and limitations](METHODS.md) · [Progress log](PROGRESS.md) · [Visual explanation (HTML file)](../../docs/when-80/index.html)
 
-*Status: data collection and study design in progress. No findings, publication, peer review or validated prediction results are claimed.*
+*Data collection is ongoing. The analysis is not finished.*
