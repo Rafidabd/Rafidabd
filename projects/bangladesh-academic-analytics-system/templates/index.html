@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Academic Analytics System</h1>
+
+<div class="dashboard-cards">
+
+    <div class="card">
+        <h2>Total Students</h2>
+        <p>{{ student_count }}</p>
+    </div>
+
+    <div class="card">
+        <h2>Total Datasets</h2>
+        <p>{{ dataset_count }}</p>
+    </div>
+
+    <div class="card">
+        <h2>Total Records</h2>
+        <p>{{ total_records }}</p>
+    </div>
+
+</div>
+
+
+<section class="dashboard-section">
+
+    <h2>Available Datasets</h2>
+
+    {% if datasets %}
+
+    <ul class="dataset-list">
+        {% for dataset in datasets %}
+            <li>
+                <a href="{{ url_for('dataset_detail', exam_name=dataset['exam_name']) }}">
+                    {{ dataset["exam_name"] }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    {% else %}
+
+    <p>No datasets found.</p>
+
+    {% endif %}
+
+</section>
+
+
+<section class="dashboard-section">
+
+    <h2>Quick Access</h2>
+
+    <div class="quick-links">
+
+        <a href="{{ url_for('students') }}">
+            Students
+        </a>
+
+        <a href="{{ url_for('datasets') }}">
+            Datasets
+        </a>
+
+        <a href="{{ url_for('analytics') }}">
+            Analytics
+        </a>
+
+        <a href="{{ url_for('academic_intelligence') }}">
+            Academic Intelligence
+        </a>
+
+    </div>
+
+</section>
+
+{% endblock %} 
