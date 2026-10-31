@@ -6,13 +6,13 @@
 
 NDC's HSC 2026 students received three printed academic reports: Term, Sent-Up 1 and Sent-Up 2. They include major-exam results and corresponding monthly quizzes. Science, Humanities and Business Studies have different subjects; first- and second-year papers also need to be distinguished.
 
-Each report contains weighted combined results, which reuse quiz marks and sometimes earlier major-exam performance. I'll preserve **component marks** and **combined totals** separately. Counting both as distinct assessments would artificially duplicate information.
+Each report contains weighted combined results, which reuse quiz marks and sometimes earlier major-exam performance. I keep **component marks** and **combined totals** separately. Counting both as distinct assessments would artificially duplicate information.
 
 ## Data handling
 
 Each extracted row identifies an anonymous participant code, department, subject/paper, assessment, quiz/major-exam type, mark and maximum mark. Missing or illegible values will be recorded rather than guessed.
 
-As of October 31, 2026, I've received records from 35 students. The first analysis uses 20 histories traceable to report cards in my working files. Generated test histories and further offline records awaiting source reconciliation were left out of the calculation. Matched groups for eligible quiz pairs contained 14–18 students.
+As of October 31, 2026, the working file contains 20 histories transcribed from report cards, 11 additional histories entered from handwritten notes, and four synthetic examples created for software testing. The first analysis uses only the 20 report-card-backed histories. I haven't included the offline-note histories while their individual sources still need checking, and synthetic entries are never treated as observations. Matched groups for eligible quiz pairs contained 14–18 students.
 
 Report-card photos and original Google Form responses will stay in restricted storage. Google Forms sign-in for uploads doesn't make the collection process fully anonymous. No report cards, names, IDs, participant-level marks or response screenshots are being published here.
 
