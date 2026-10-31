@@ -26,7 +26,7 @@ NDC has three departments: Science, Humanities and Business Studies, with differ
 
 ## Why this setting matters
 
-At NDC, monthly quizzes and larger examinations are part of the same academic history. Students get three major report cards, but the combined scores on those cards may reuse earlier marks. Comparing those totals as if they were new examinations would tell the wrong story.
+At NDC, monthly quizzes and larger internal examinations are part of the same academic history. Students get three major report cards, but the combined scores on those cards may reuse earlier marks. These are college assessments, not the national HSC board exams. Comparing the totals as if they were new examinations would tell the wrong story.
 
 It's a useful place for me to begin because the same students have repeated assessments across time. That gives me a chance to ask a narrower question than whether the marks are "fair": does a change in the raw mark always match a change in the student's position in the participating group?
 
@@ -37,6 +37,8 @@ The study is based on one college, not a sample of all Bangladesh. It can't esta
 **Students** may want to know whether a drop in marks also meant a drop in standing on that assessment. **Teachers** may find a second comparison useful when discussing a change in results, alongside their knowledge of the class and paper. **Families** could have a better starting point for talking about progress without reducing it to a single number.
 
 For me, as someone building education software, the question is also about what a dashboard should say when the available measures disagree. These are possible uses to investigate, not benefits the study has shown.
+
+A rise in relative standing isn't proof that a student learned more. It might reflect how everyone else performed. That's why I don't want the answer to be "replace marks with ranks." I want to know when the two views disagree and what each one can actually tell us.
 
 **Progress on October 31, 2026:** I've received records from **30 students**. I'm still checking the submissions for readable marks, missing entries and overlap between assessments. I haven't calculated the study's results yet.
 
