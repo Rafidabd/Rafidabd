@@ -10,7 +10,7 @@ Most of my coding time goes into student performance and education. Outside of t
 | :--- | :--- |
 | **[Bangladesh Academic Analytics System](projects/bangladesh-academic-analytics-system/README.md)** | **[When 80 Doesn't Mean the Same](research/when-80/README.md)** |
 | A Python and Flask application for exploring academic records, trends, recurring weaknesses and rule-based predictions. | An ongoing study of how raw exam marks compare with students' standing among others who took the same assessments. |
-| [Browse the source](projects/bangladesh-academic-analytics-system/README.md) | [Research overview](research/when-80/README.md) · [Short brief](research/when-80/BRIEF.md) |
+| [Browse the source](projects/bangladesh-academic-analytics-system/README.md) | [Open the research website](https://rafidabd.github.io/Rafidabd/when-80/) · [Read the brief](research/when-80/BRIEF.md) |
 
 ### How one led to the other
 
@@ -20,7 +20,7 @@ It was a pretty good reminder that a prediction can be wrong for reasons the cod
 
 That's what led me to start *When 80 Doesn't Mean the Same*. I'm collecting historical report cards from NDC's HSC 2026 cohort and looking at where raw-score trends and relative standing tell different stories. Data collection is underway, so I'm not presenting findings yet.
 
-[Read the method](research/when-80/METHODS.md) · [See the progress notes](research/when-80/PROGRESS.md)
+[Research website](https://rafidabd.github.io/Rafidabd/when-80/) · [Read the method](research/when-80/METHODS.md) · [See the progress notes](research/when-80/PROGRESS.md)
 
 ### More about the software
 
