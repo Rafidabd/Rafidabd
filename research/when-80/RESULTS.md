@@ -1,9 +1,9 @@
 # When 80 Doesn't Mean the Same
-## First results , October 31, 2026
+## First results, October 31, 2026
 
 I started this after my academic analytics program predicted at least 80 for my next mathematics quiz. I scored 65, the highest mark in my group. It made me wonder how often a change in marks tells a different story from a change in relative standing.
 
-I've now done a first comparison using report card histories from 20 students from Notre Dame College's HSC 2026 batch. It's a small, preliminary analysis, but I finally have a number for the question I started with.
+I've now compared report card histories from 20 students in Notre Dame College's HSC 2026 batch. It's a small, preliminary analysis, but I finally have a number for the question I started with.
 
 **In 148 of 814 comparisons (18.2%), the raw mark and relative standing moved in opposite directions.**
 
@@ -22,7 +22,7 @@ I kept the individual quiz marks separate from NDC's weighted report card totals
 | Students with report cards available | 20 |
 | Comparable consecutive quiz pairs | 57 |
 | Students in each matched group | 14 to 18 |
-| Matched matched comparisons between student scores | 936 |
+| Matched comparisons of individual students' quiz marks | 936 |
 | Cases where both measures changed | 814 |
 | Opposite direction changes | 148 (18.2%) |
 
