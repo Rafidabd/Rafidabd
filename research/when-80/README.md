@@ -40,7 +40,7 @@ For me, as someone building education software, the question is also about what 
 
 A rise in relative standing isn't proof that a student learned more. It might reflect how everyone else performed. That's why I don't want the answer to be "replace marks with ranks." I want to know when the two views disagree and what each one can actually tell us.
 
-**Progress on October 31, 2026:** I've received records from **30 students**. I'm still checking the submissions for readable marks, missing entries and overlap between assessments. I haven't calculated the study's results yet.
+**Progress on October 31, 2026:** I've received records from **35 students**. I'm still checking the submissions for readable marks, missing entries and overlap between assessments. I haven't calculated the study's results yet.
 
 ## Planned analysis
 
