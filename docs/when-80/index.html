@@ -1,6 +1,10 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="When 80 Doesn't Mean the Same — research in progress at Notre Dame College, Dhaka.">
+<meta name="description" content="An independent study at Notre Dame College, Dhaka, comparing raw exam marks and relative standing. Read the research question, method and progress.">
+<meta name="author" content="Rafid">
+<meta name="theme-color" content="#102039">
+<meta property="og:title" content="When 80 Doesn't Mean the Same">
+<meta property="og:description" content="Why a falling exam mark may not tell the whole story. Research in progress at Notre Dame College, Dhaka.">
 <title>When 80 Doesn't Mean the Same — NDC Research</title>
 <style>
 :root{--ink:#172840;--muted:#57687c;--navy:#102039;--blue:#207795;--pale:#f5f7fa;--line:#d9e1e9;--gold:#f0c781}
@@ -9,14 +13,89 @@ nav{background:var(--navy);color:#fff}nav .wrap{display:flex;align-items:center;
 .hero{background:linear-gradient(120deg,#102039,#1a4560);color:white;padding:90px 0}.hero .wrap{display:grid;grid-template-columns:1.07fr .93fr;align-items:center;gap:52px}.kicker{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#a9d8e3;font-weight:700}h1{font-size:clamp(47px,6vw,78px);line-height:1.05;letter-spacing:-.055em;margin:20px 0 24px}h1 em{font-style:normal;color:var(--gold)}.lead{font-size:20px;line-height:1.5;color:#e8f2f9}.detail{font-size:14px;line-height:1.8;color:#c3d5e3}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}.actions a{font-size:13px;font-weight:700;text-decoration:none;padding:12px 17px;border-radius:6px;background:#f2dcae;color:#15253a}.actions a+ a{background:transparent;border:1px solid #7b95a9;color:white}
 .demo{background:#fff;color:var(--ink);padding:24px;border-radius:12px;box-shadow:0 24px 60px rgba(0,0,0,.2)}.demo-h{display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:1px solid var(--line);padding-bottom:13px;font-size:11px;font-weight:700;letter-spacing:.08em}.tag{background:#fff1d5;border-radius:20px;padding:4px 10px;color:#76551f;font-size:10px}.demo h2{font-size:24px;line-height:1.2;letter-spacing:-.04em;margin:22px 0 10px}.demo>p{font-size:12px;color:var(--muted)}.metrics{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}.metric{background:#f5f8fb;border:1px solid var(--line);padding:17px 14px;border-radius:8px}.metric small{display:block;font-size:10px;font-weight:700;color:#5b6f82;margin-bottom:14px}.metric b{display:block;letter-spacing:-.06em;font-size:27px;line-height:1.1}.metric p{font-size:12px;line-height:1.5;color:#5c6d80;margin:12px 0 0}.fine{font-size:11px!important;color:#5f6f80!important;line-height:1.6}
 .section{padding:75px 0}.split{display:grid;grid-template-columns:.72fr 1.28fr;gap:60px}.section h2{font-size:clamp(30px,4vw,45px);letter-spacing:-.05em;line-height:1.2;margin:12px 0 22px}.section p{color:#4e6073}.label{font-size:11px;font-weight:700;text-transform:uppercase;color:#26738f;letter-spacing:.14em}.quote{font-weight:650;color:#173f57;font-size:18px;border-left:3px solid #2597a4;padding-left:20px;margin:23px 0}.pale{background:#eaf0f5;border-top:1px solid #dce4eb;border-bottom:1px solid #dce4eb}.stepgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin-top:28px}.step{background:#fff;border:1px solid var(--line);padding:23px;border-radius:9px}.step small{color:#177d91;font-weight:700}.step h3{font-size:20px;letter-spacing:-.03em;margin:12px 0}.step p{font-size:14px;margin:0}.caution{margin-top:20px;padding:16px 20px;background:#fff;border-left:3px solid #be9446;color:#4f5f71;font-size:14px}.status-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}.status-list{padding:0;list-style:none}.status-list li{border-bottom:1px solid var(--line);padding:12px 0;font-size:14px;color:#506176}.status-list strong{display:block;color:#1b314c}.footer{padding:55px 0;background:#12233a;color:#edf3f8}.footer h2{font-size:30px}.footer p{color:#c6d4e2;max-width:780px}.footer a{color:#b9e7ef}
-@media(max-width:780px){.hero .wrap,.split,.status-grid{grid-template-columns:1fr;gap:30px}.stepgrid{grid-template-columns:1fr}.hero{padding:65px 0}.section{padding:55px 0}}@media(max-width:390px){nav .wrap{flex-direction:column;padding:12px 0}nav a{margin:0 9px} .metrics{grid-template-columns:1fr}}@media print{nav,.actions{display:none}.hero{background:#fff;color:#111;padding:20px 0}.lead,.detail{color:#222}.demo{box-shadow:none;border:1px solid #aaa}.section{padding:20px 0}.footer{background:#fff;color:#222}.footer p{color:#333}}
+.context-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}
+.context-card{background:#fff;border:1px solid var(--line);padding:22px 20px;border-radius:9px}
+.context-card b{display:block;font-size:36px;line-height:1.05;letter-spacing:-.055em;color:#123e59}
+.context-card span{display:block;margin-top:9px;font-size:13px;color:var(--muted);line-height:1.5}
+.section-lead{max-width:740px;font-size:18px;line-height:1.7}
+.focus{background:#133b51;color:white;padding:31px;border-radius:10px;margin-top:26px}
+.focus small{font-size:11px;letter-spacing:.13em;color:#a3d1da;font-weight:700;text-transform:uppercase}
+.focus p{color:#f0f5f7;font-size:23px;line-height:1.4;letter-spacing:-.025em;margin:12px 0}
+.focus div{font-size:13px;color:#c7dae4}
+.question-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.question-card{padding:22px;border:1px solid var(--line);border-radius:9px}
+.question-card h3{font-size:19px;margin:3px 0 10px;line-height:1.3}
+.question-card p{font-size:14px;margin:0}
+.people-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:25px}
+.people-card{background:#fff;border:1px solid var(--line);border-radius:9px;padding:23px}
+.people-card h3{font-size:19px;margin:0 0 7px}
+.people-card p{font-size:14px;margin:0}
+.possible{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:26px}
+.possible article{padding:23px;background:#fff;border:1px solid var(--line);border-radius:9px}
+.possible h3{font-size:19px;margin:0 0 8px}
+.possible p{margin:0;font-size:14px}
+.section .narrow{max-width:760px}
+@media(max-width:780px){.hero .wrap,.split,.status-grid{grid-template-columns:1fr;gap:30px}.stepgrid,.context-grid,.question-grid,.people-grid,.possible{grid-template-columns:1fr}.hero{padding:65px 0}.section{padding:55px 0}}@media(max-width:390px){nav .wrap{flex-direction:column;padding:12px 0}nav a{margin:0 7px;font-size:11px}nav div div{display:flex;flex-wrap:wrap;justify-content:center} .metrics{grid-template-columns:1fr}}@media print{nav,.actions{display:none}.hero{background:#fff;color:#111;padding:20px 0}.lead,.detail{color:#222}.demo{box-shadow:none;border:1px solid #aaa}.section{padding:20px 0}.footer{background:#fff;color:#222}.footer p{color:#333}}
 </style></head>
 <body>
-<nav><div class="wrap"><strong>NDC / INDEPENDENT RESEARCH</strong><div><a href="#question">Question</a><a href="#method">Method</a><a href="#progress">Progress</a></div></div></nav>
+<nav><div class="wrap"><strong>RAFID / INDEPENDENT RESEARCH</strong><div><a href="#question">Story</a><a href="#context">NDC context</a><a href="#method">Method</a><a href="#people">Who it's for</a><a href="#progress">Progress</a></div></div></nav>
 <header class="hero"><div class="wrap"><div><div class="kicker">Notre Dame College · HSC 2026 · Work in progress</div><h1>When <em>80</em> Doesn't<br>Mean the Same</h1><p class="lead">Can a lower mark still mean a student performed better relative to their peers?</p><p class="detail">I'm studying how raw examination marks compare with students' relative standing across the recurring assessments at NDC. I started asking this after my own academic analytics system made a prediction that went wrong.</p><div class="actions"><a href="https://github.com/Rafidabd/Rafidabd/blob/main/research/when-80/BRIEF.md">Read the study brief</a><a href="https://github.com/Rafidabd/Rafidabd/tree/main/research/when-80">See the notes on GitHub</a></div></div><div class="demo"><div class="demo-h"><span>THE QUESTION, IN NUMBERS</span><span class="tag">ILLUSTRATION ONLY</span></div><h2>Two quizzes. A different interpretation.</h2><p>Suppose a student gets 90 in one quiz and 80 in another, while the second quiz also has lower scores among the participating students.</p><div class="metrics"><div class="metric"><small>RAW MARKS</small><b>90 → 80</b><p>The student's mark falls.</p></div><div class="metric"><small>SAMPLE-RELATIVE Z-SCORES</small><b>+1.0 → +1.5</b><p>Their relative position rises.</p></div></div><p class="fine"><strong>Not research results.</strong> Made-up example: means of 85 and 65; standard deviations of 5 and 10. This does not prove either examination was harder.</p></div></div></header>
 <main>
 <section class="section" id="question"><div class="wrap split"><div><div class="label">01 / Where it started</div><h2>A result I couldn't explain with my model.</h2></div><div><p>While building the Bangladesh Academic Analytics System, I used past marks to estimate my next mathematics quiz result. The program predicted at least 80. I got 55. That was the highest mark in my group.</p><p>The score made me wonder what the program had missed. Exams don't always test the same things or get marked in quite the same way. What can we really conclude from a rise or fall in marks?</p><div class="quote">When a student's marks change, how often does their standing among others taking the same assessment move in another direction?</div></div></div></section>
-<section class="section pale" id="method"><div class="wrap"><div class="label">02 / Planned method</div><h2>Follow the same students across exams.</h2><p>I'm collecting Term, Sent-Up 1 and Sent-Up 2 report cards from the NDC HSC 2026 cohort. They include individual quiz marks and major-exam results. The report cards' weighted totals will be treated separately from the component exams.</p><div class="stepgrid"><div class="step"><small>01</small><h3>Read the records</h3><p>Check the reports and record subjects, papers, quizzes, examination scores and missing values without guessing.</p></div><div class="step"><small>02</small><h3>Keep the group consistent</h3><p>Compare quizzes within the same subject using students whose marks are available for both assessments.</p></div><div class="step"><small>03</small><h3>Check the two trends</h3><p>Look for cases where raw marks and relative standing change in opposite directions, and see whether the pattern holds under other measures.</p></div></div><div class="caution"><strong>Important limit:</strong> relative standing in a volunteer sample isn't an official NDC rank or a direct measure of exam difficulty. The aim is to test descriptions, not prove a student's true ability.</div></div></section>
-<section class="section" id="progress"><div class="wrap status-grid"><div><div class="label">03 / October 31, 2026</div><h2>What exists today</h2><p>I've received records from <strong>30 students</strong>. I'm still checking which reports have readable marks and which quizzes can be compared across the same students. I haven't calculated the results yet.</p><p>The page documents work in progress, not a finished paper.</p></div><div><ul class="status-list"><li><strong>Question defined</strong>Raw score trends versus sample-relative standing.</li><li><strong>Collection underway</strong>Historical report cards from the HSC 2026 cohort.</li><li><strong>Software exists</strong>Python/Flask app with academic history, trends, risk and heuristic predictions.</li><li><strong>Still to do</strong>Record audit, data extraction, analysis, literature review and faculty feedback.</li></ul></div></div></section>
-</main><footer class="footer"><div class="wrap"><div class="label" style="color:#8bcdda">Related software</div><h2>Bangladesh Academic Analytics System</h2><p>The study grew out of my existing Python/Flask project. It is helping me question how that system compares academic histories. An earlier source snapshot is now public, with student records excluded. My newer local changes aren't all in that copy.</p><p><a href="https://github.com/Rafidabd/Rafidabd/tree/main/projects/bangladesh-academic-analytics-system">Browse the academic analytics source</a></p><p><a href="https://github.com/Rafidabd/Rafidabd/blob/main/research/when-80/METHODS.md">Method notes</a> · <a href="https://github.com/Rafidabd/Rafidabd/blob/main/research/when-80/PROGRESS.md">Progress log</a></p><small>Independent research · Data collection underway · October 2026</small></div></footer>
+<section class="section pale" id="context">
+  <div class="wrap">
+    <div class="label">02 / Why start at NDC?</div>
+    <div class="split">
+      <div><h2>A report card holds more than one kind of score.</h2></div>
+      <div><p>At Notre Dame College in Dhaka, students take monthly quizzes alongside larger examinations. Their Term, Sent-Up 1 and Sent-Up 2 reports bring those results together. But the exams aren't identical, and the combined totals can reuse earlier marks.</p><p>That gives me a specific problem to investigate with real, repeated assessments. It's also why I need to separate the original exam marks from the weighted report totals before comparing anything.</p></div>
+    </div>
+    <div class="context-grid" aria-label="The structure of the academic records">
+      <div class="context-card"><b>12</b><span>Monthly quiz rounds across a complete student history</span></div>
+      <div class="context-card"><b>3</b><span>Major examinations: Term, Sent-Up 1 and Sent-Up 2</span></div>
+      <div class="context-card"><b>3</b><span>Departments with different subject combinations, kept separate in the analysis</span></div>
+    </div>
+    <p class="fine" style="margin-top:17px">These numbers describe the NDC assessment structure, not the number of usable observations in the collected sample.</p>
+  </div>
+</section>
+<section class="section" id="questions">
+  <div class="wrap">
+    <div class="label">03 / The research question</div>
+    <h2>When do the two stories diverge?</h2>
+    <p class="section-lead">A raw mark tells us what a student earned. Their relative standing tells us how that mark compares with other participating students on the same exam. Neither answers every question by itself.</p>
+    <div class="focus"><small>Main question</small><p>For the same students taking comparable quizzes, how often do raw marks and relative standing change in opposite directions?</p><div>This will be measured, not assumed. The analysis may find frequent disagreement, little disagreement or patterns that vary by subject.</div></div>
+    <div class="question-grid">
+      <div class="question-card"><h3>Does the answer depend on the method?</h3><p>I'll check whether the picture changes when relative standing is measured with percentiles rather than standardized scores, and when incomplete records are excluded.</p></div>
+      <div class="question-card"><h3>What should my software do with that information?</h3><p>If the two measures sometimes tell different stories, I want to consider how a dashboard could show that uncertainty rather than quietly choosing a single judgment. Testing a redesigned interface would be a later step.</p></div>
+    </div>
+  </div>
+</section>
+<section class="section pale" id="method"><div class="wrap"><div class="label">04 / Planned method</div><h2>Follow the same students across exams.</h2><p>I'm collecting Term, Sent-Up 1 and Sent-Up 2 report cards from the NDC HSC 2026 cohort. They include individual quiz marks and major-exam results. The report cards' weighted totals will be treated separately from the component exams.</p><div class="stepgrid"><div class="step"><small>01</small><h3>Read the records</h3><p>Check the reports and record subjects, papers, quizzes, examination scores and missing values without guessing.</p></div><div class="step"><small>02</small><h3>Keep the group consistent</h3><p>Compare quizzes within the same subject using students whose marks are available for both assessments.</p></div><div class="step"><small>03</small><h3>Check the two trends</h3><p>Look for cases where raw marks and relative standing change in opposite directions, and see whether the pattern holds under other measures.</p></div></div><div class="caution"><strong>Important limit:</strong> relative standing in a volunteer sample isn't an official NDC rank or a direct measure of exam difficulty. The aim is to test descriptions, not prove a student's true ability.</div></div></section>
+<section class="section" id="people">
+  <div class="wrap">
+    <div class="label">05 / Who might care?</div>
+    <h2>These numbers are read by people.</h2>
+    <p class="section-lead">In a college setting, marks can shape how students describe themselves and how others talk about their progress. I'm not claiming my study will change any decisions. But it could help make the questions behind those decisions clearer.</p>
+    <div class="people-grid">
+      <div class="people-card"><h3>Students</h3><p>If a mark drops, does that always reflect a similar drop in standing? Seeing both may help a student ask a better question about what happened.</p></div>
+      <div class="people-card"><h3>Teachers</h3><p>Could looking at the distribution of marks from a shared assessment provide context when discussing progress? It would still need to be interpreted with classroom knowledge.</p></div>
+      <div class="people-card"><h3>Families</h3><p>A report card can be easy to reduce to one number. This research asks what that number leaves out, without asking anyone to ignore the mark itself.</p></div>
+      <div class="people-card"><h3>People building education software</h3><p>My own program produced a prediction I couldn't defend. That raises a design question: what should an analytics system display, and where should it admit uncertainty?</p></div>
+    </div>
+    <p class="fine" style="margin-top:18px">These are potential uses to explore, not proven benefits or claims about how NDC currently evaluates students.</p>
+  </div>
+</section>
+<section class="section pale" id="meaning">
+  <div class="wrap">
+    <div class="label">06 / Why the answer matters</div>
+    <h2>Either outcome teaches me something.</h2>
+    <p class="section-lead">I don't want to build the research around a conclusion I've already decided is true.</p>
+    <div class="possible">
+      <article><h3>If disagreements appear often</h3><p>Then a single raw-score trend might leave out useful context in this sample. It would be worth testing whether showing both measures makes an academic dashboard more informative.</p></article>
+      <article><h3>If disagreements are rare</h3><p>That matters too. It would suggest that the extra measure often adds little for the quizzes studied, or that any disagreement depends on specific subjects and assessments.</p></article>
+    </div>
+    <div class="caution"><strong>A boundary I don't want to cross:</strong> comparison with a volunteer sample isn't the same as an official rank, and a lower sample average doesn't prove an exam was harder. This is a study of score interpretation at one institution, not a general ranking of students or schools in Bangladesh.</div>
+  </div>
+</section>
+<section class="section" id="progress"><div class="wrap status-grid"><div><div class="label">07 / October 31, 2026</div><h2>What exists today</h2><p>I've received records from <strong>30 students</strong>. I'm still checking which reports have readable marks and which quizzes can be compared across the same students. I haven't calculated the results yet.</p><p>The page documents work in progress, not a finished paper.</p></div><div><ul class="status-list"><li><strong>Question defined</strong>Matched exam comparisons, with space for either outcome.</li><li><strong>Collection underway</strong>Historical report cards from the HSC 2026 cohort.</li><li><strong>Software exists</strong>Python/Flask app with academic history, trends, risk and heuristic predictions.</li><li><strong>Still to do</strong>Record audit, data extraction, analysis, literature review and faculty feedback.</li></ul></div></div></section>
+</main><footer class="footer"><div class="wrap"><div class="label" style="color:#8bcdda">Related software</div><h2>Bangladesh Academic Analytics System</h2><p>The study grew out of my existing Python/Flask project. It is helping me question how that system compares academic histories. An earlier source snapshot is now public, with student records excluded. My newer local changes aren't all in that copy.</p><p><a href="https://github.com/Rafidabd/Rafidabd/tree/main/projects/bangladesh-academic-analytics-system">Browse the academic analytics source</a></p><p><a href="https://github.com/Rafidabd/Rafidabd/blob/main/research/when-80/METHODS.md">Method notes</a> · <a href="https://github.com/Rafidabd/Rafidabd/blob/main/research/when-80/PROGRESS.md">Progress log</a></p><small>Independent research · NDC HSC 2026 cohort · Data collection underway</small></div></footer>
 </body></html>
