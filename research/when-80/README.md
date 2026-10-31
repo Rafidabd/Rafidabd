@@ -6,7 +6,7 @@
 
 ## Why I started
 
-An early version of my academic analytics system predicted that I'd score at least 80 on my next mathematics quiz. I got 55. It was the highest score in my group.
+An early version of my academic analytics system predicted that I'd score at least 80 on my next mathematics quiz. I got 65. It was the highest score in my group.
 
 The prediction made me wonder what I'd missed. I couldn't tell from the mark alone whether I was doing worse, or whether that particular quiz had been different. That question stayed with me as I kept building the program.
 
@@ -40,7 +40,7 @@ For me, as someone building education software, the question is also about what 
 
 A rise in relative standing isn't proof that a student learned more. It might reflect how everyone else performed. That's why I don't want the answer to be "replace marks with ranks." I want to know when the two views disagree and what each one can actually tell us.
 
-**First results, October 31, 2026:** I've received records from **35 students**. For a first analysis I used **20 report-card-backed histories** and excluded software-test examples and additional records that still need source reconciliation. In **148 of 814 comparisons (18.2%)**, raw marks and relative standing changed in opposite directions. The finding is preliminary; [the full breakdown is here](RESULTS.md).
+**First results, October 31, 2026:** My working file has **20 histories entered from supplied report cards**, **11 more entered from handwritten notes** that still need source-by-source checks, and **4 synthetic histories** I used for software testing. Only the first 20 were used in the pilot. In **148 of 814 comparisons (18.2%)** where both measures changed, raw marks and relative standing moved in opposite directions. This is preliminary; [the full breakdown is here](RESULTS.md).
 
 ## The first calculation
 
