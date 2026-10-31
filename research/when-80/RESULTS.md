@@ -1,7 +1,7 @@
 # When 80 Doesn't Mean the Same
 ## First results — October 31, 2026
 
-I started this after my academic analytics program predicted at least 80 for my next mathematics quiz. I scored 55, the highest mark in my group. It made me wonder how often a change in marks tells a different story from a change in relative standing.
+I started this after my academic analytics program predicted at least 80 for my next mathematics quiz. I scored 65, the highest mark in my group. It made me wonder how often a change in marks tells a different story from a change in relative standing.
 
 I've now done a first comparison using 20 students' report-card-backed histories from Notre Dame College's HSC 2026 batch. It's a small, preliminary analysis, but I finally have a number for the question I started with.
 
@@ -62,7 +62,7 @@ For these students and quizzes, a raw-score trend sometimes leaves out what happ
 
 It isn't enough to say relative standing is fairer, or that a falling mark means the exam was harder. A volunteer group's standing isn't an official NDC rank. With only 20 histories, some incomplete, the results may change as I check and add records. Also, repeated comparisons from the same people aren't independent observations, so I'm not using this percentage as a population estimate or claiming statistical significance.
 
-I've received records from 35 students overall, but this first calculation uses only the **20 histories backed by report cards I could trace in my working file**. I excluded generated software-test examples and additional offline-reported records that haven't been reconciled against their sources.
+The wider working file currently has **20 histories transcribed from supplied report cards**, **11 entered from my handwritten offline notes**, and **4 synthetic test histories**. The 11 offline-note histories still need checks against their sources, and the synthetic rows aren't student observations. This first calculation uses only the **20 report-card-backed histories**; the other 15 were excluded.
 
 This is a first descriptive result, not a finished paper. My next step is to check the extraction with a second pass, look more carefully at missing marks and ties, and see whether showing both measures actually makes my analytics software easier to understand.
 
