@@ -18,7 +18,7 @@ My analytics program once estimated that I'd score at least 80 on a mathematics 
 
 It was a pretty good reminder that a prediction can be wrong for reasons the code doesn't understand. I had been comparing marks across exams without paying enough attention to how different the exams themselves could be.
 
-That's what led me to start *When 80 Doesn't Mean the Same*. I'm collecting historical report cards from NDC's HSC 2026 cohort and looking at where raw-score trends and relative standing tell different stories. Data collection is underway, so I'm not presenting findings yet.
+That's what led me to start *When 80 Doesn't Mean the Same*. I've received academic records from 35 students in NDC's HSC 2026 cohort. I'm checking them before comparing raw-score trends with relative standing, so there are no findings to report yet.
 
 [Research website](https://rafidabd.github.io/Rafidabd/when-80/) · [Read the method](research/when-80/METHODS.md) · [See the progress notes](research/when-80/PROGRESS.md)
 
