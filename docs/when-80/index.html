@@ -126,6 +126,28 @@ a:focus-visible{outline:3px solid #dbac55;outline-offset:4px}
 @media(max-width:390px){.pilot-ring-row{flex-direction:column;align-items:start}.pilot-bar-row{grid-template-columns:68px minmax(0,1fr) 89px}.pilot-bar-value small{display:block}.pilot-bar-scale{margin-right:88px;margin-left:73px}.pilot-example-numbers{gap:12px}.pilot-example-numbers strong{font-size:34px}}
 @media print{nav{display:none}.pilot-section{background:#fff;color:#15253a}.pilot-intro p,.pilot-bottom p{color:#3f5265}.pilot-bottom{border-color:#ccd5dd}.pilot-bottom h3{color:#15253a}.pilot-panel{break-inside:avoid;border:1px solid #bbc7d1}.pilot-ring{-webkit-print-color-adjust:exact;print-color-adjust:exact}.pilot-bar-fill{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 
+
+/* Mathematics example: two-sided comparison from the original notebook design */
+.pilot-example{background:#fdfaf4}
+.pilot-example-head h3{font-size:clamp(26px,3.5vw,33px);margin-top:7px}
+.pilot-example-grid{gap:74px;position:relative;margin-top:22px}
+.pilot-example-visual{background:#fffdfa;border:1px solid #e7dfd1;border-radius:16px;padding:23px 24px 27px;min-height:355px}
+.pilot-math-title{display:flex;align-items:center;gap:12px;padding-bottom:14px;border-bottom:1px solid #e8e2d8;font-size:11px;letter-spacing:.1em;font-weight:800;color:#173b58;min-height:62px}
+.pilot-math-icon{width:42px;height:42px;flex:0 0 42px;background:#fbecd1;border-radius:50%;color:#214867;display:grid;place-items:center}
+.pilot-math-icon svg{width:23px;height:23px}
+.pilot-example-numbers{justify-content:center;margin:24px 0 7px;gap:13px}
+.pilot-example-numbers strong{font-size:clamp(35px,4vw,52px)}
+.pilot-math-caption{text-align:center;font-size:12px;line-height:1.6;color:#5c7285;min-height:39px;margin:8px 0 18px}
+.pilot-mini-bars{margin:5px auto 0;height:120px;max-width:300px;gap:42px}
+.pilot-mini-bars .pilot-mini-bar{width:65px}
+.pilot-percentile{margin:55px auto 0;max-width:310px;height:65px}
+.pilot-cross-arrows{position:absolute;left:50%;top:51%;transform:translate(-50%,-50%);width:83px;height:106px;z-index:1;pointer-events:none;overflow:visible}
+.pilot-math-conclusion{display:flex;align-items:center;gap:17px;margin-top:18px;border-radius:14px;background:#f5f0e6;padding:16px 20px;color:#1c405b;font-size:16px;font-weight:600;line-height:1.5}
+.pilot-lightbulb{display:grid;place-items:center;flex:0 0 38px;width:38px;height:38px;background:#fbe9c3;border-radius:50%;font-size:22px;color:#936e2a}
+.pilot-example-note{margin:17px 0 0;padding-top:12px;color:#5d7182}
+@media(max-width:900px){.pilot-example-grid{gap:30px}.pilot-cross-arrows{width:45px;opacity:.85}.pilot-example-visual{padding:17px 15px;min-height:345px}.pilot-math-title{gap:8px;font-size:10px}.pilot-math-icon{width:34px;height:34px;flex-basis:34px}.pilot-example-numbers{gap:8px}.pilot-example-numbers strong{font-size:clamp(30px,4vw,42px)}}
+@media(max-width:640px){.pilot-example-grid{gap:25px}.pilot-example-visual{min-height:345px;padding:20px}.pilot-cross-arrows{display:none}.pilot-example-numbers strong{font-size:clamp(34px,10vw,48px)}.pilot-math-conclusion{font-size:14px}}
+
 </style></head>
 <body>
 <nav aria-label="Main navigation"><div class="wrap"><strong>RAFID / INDEPENDENT RESEARCH</strong><div class="nav-links"><a href="#results">Findings</a><a href="#question">Story</a><a href="#context">NDC context</a><a href="#method">Method</a><a href="#progress">Progress</a></div></div></nav>
@@ -221,31 +243,48 @@ a:focus-visible{outline:3px solid #dbac55;outline-offset:4px}
     </article>
   </div>
   <article class="pilot-panel pilot-example">
-    <div class="pilot-example-head"><div><span class="pilot-small-label">A CLOSER LOOK</span><h3>One Mathematics example</h3></div><p>Quiz 2 → Quiz 3 · Same 17 students in both</p></div>
-    <p class="pilot-panel-desc">One student's mark dropped by four points, while their position among those 17 students rose. This is the mismatch I wanted to understand.</p>
-    <div class="pilot-example-grid">
-      <div class="pilot-example-visual">
-        <div class="pilot-example-label">RAW MARKS <span>out of 100</span></div>
-        <div class="pilot-example-numbers"><strong>44</strong><span aria-hidden="true">→</span><strong>40</strong></div>
-        <div class="pilot-mini-bars" aria-label="Mathematics Quiz 2 score 44; Quiz 3 score 40" role="img">
-          <div><span>44</span><div class="pilot-mini-bar" style="height:44%"></div><small>Quiz 2</small></div>
-          <div><span>40</span><div class="pilot-mini-bar pilot-mini-bar-last" style="height:40%"></div><small>Quiz 3</small></div>
-        </div>
+  <div class="pilot-example-head">
+    <div><span class="pilot-small-label">A CLOSER LOOK</span><h3>One Mathematics example</h3></div>
+    <p>Quiz 2 → Quiz 3 · Same 17 students in both rounds</p>
+  </div>
+  <div class="pilot-example-grid">
+    <div class="pilot-example-visual">
+      <div class="pilot-math-title">
+        <span class="pilot-math-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="17" rx="2"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M9 12h6M9 16h6"/></svg></span>
+        <span>RAW MARKS</span>
       </div>
-      <div class="pilot-example-visual">
-        <div class="pilot-example-label">MATCHED-GROUP PERCENTILE <span>within these 17 students</span></div>
-        <div class="pilot-example-numbers"><strong>29th</strong><span aria-hidden="true">→</span><strong>65th</strong></div>
-        <div class="pilot-percentile" role="img" aria-label="Sample-relative percentile standing rose from 29.4 to 64.7 out of 100">
-          <div class="pilot-percentile-line"></div>
-          <div class="pilot-percentile-shift" style="left:29.4%;width:35.3%"></div>
-          <div class="pilot-percentile-dot" style="left:29.4%"><span>29.4</span></div>
-          <div class="pilot-percentile-dot pilot-percentile-dot-last" style="left:64.7%"><span>64.7</span></div>
-          <div class="pilot-percentile-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
-        </div>
+      <div class="pilot-example-numbers"><strong>44</strong><span aria-hidden="true">→</span><strong>40</strong></div>
+      <p class="pilot-math-caption">The student scored four marks lower.</p>
+      <div class="pilot-mini-bars" aria-label="Mathematics Quiz 2 score 44 out of 100; Quiz 3 score 40 out of 100" role="img">
+        <div><span>44</span><div class="pilot-mini-bar" style="height:44%"></div><small>Quiz 2</small></div>
+        <div><span>40</span><div class="pilot-mini-bar pilot-mini-bar-last" style="height:40%"></div><small>Quiz 3</small></div>
       </div>
     </div>
-    <p class="pilot-example-note">The matched group's mean fell from 56.9 to 33.6. That doesn't prove the second quiz was harder; it shows why the student's mark doesn't tell the whole story.</p>
-  </article>
+    <svg class="pilot-cross-arrows" viewBox="0 0 100 120" aria-hidden="true" focusable="false">
+      <path d="M5 94 C32 84 49 42 87 21" fill="none" stroke="#cea14a" stroke-width="4" stroke-linecap="round"/>
+      <path d="M76 16 L88 20 L84 34" fill="none" stroke="#cea14a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M5 38 C34 45 53 88 87 102" fill="none" stroke="#7b96a9" stroke-width="4" stroke-linecap="round"/>
+      <path d="M74 103 L89 104 L85 90" fill="none" stroke="#7b96a9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div class="pilot-example-visual">
+      <div class="pilot-math-title">
+        <span class="pilot-math-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><circle cx="18" cy="9" r="2"/><circle cx="3.5" cy="9" r="1.8"/><path d="M3 20v-1c0-4 2.3-6 6-6s6 2 6 6v1M15 14c3.2 0 5 1.8 5 5v1M2 14c-1 1-1.5 2.5-1.5 5"/></svg></span>
+        <span>MATCHED-GROUP PERCENTILE</span>
+      </div>
+      <div class="pilot-example-numbers"><strong>29th</strong><span aria-hidden="true">→</span><strong>65th</strong></div>
+      <p class="pilot-math-caption">The student moved higher relative to the same group.</p>
+      <div class="pilot-percentile" role="img" aria-label="Sample-relative percentile standing rose from 29.4 to 64.7 out of 100">
+        <div class="pilot-percentile-line"></div>
+        <div class="pilot-percentile-shift" style="left:29.4%;width:35.3%"></div>
+        <div class="pilot-percentile-dot" style="left:29.4%"><span>29th</span></div>
+        <div class="pilot-percentile-dot pilot-percentile-dot-last" style="left:64.7%"><span>65th</span></div>
+        <div class="pilot-percentile-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="pilot-math-conclusion"><span class="pilot-lightbulb" aria-hidden="true">✦</span><span>This is the kind of disagreement I'm trying to understand.</span></div>
+  <p class="pilot-example-note">The matched group's average fell from 56.9 to 33.6. That's useful context, but it doesn't prove the second quiz was harder or that relative standing is a fairer measure.</p>
+</article>
   <div class="pilot-bottom">
     <div><h3>A result worth checking further, not a final answer.</h3><p>With a stricter cutoff (at least five marks and ten percentile points), I still found 79 disagreements among 628 qualifying comparisons (12.6%). The sample is small and self-selected; these aren't official NDC ranks or independent observations.</p></div>
     <a href="https://github.com/Rafidabd/Rafidabd/blob/main/research/when-80/RESULTS.md">See the full results, counts and limitations</a>
