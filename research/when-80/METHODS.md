@@ -24,6 +24,16 @@ I'll start with pairs of quizzes in the **same subject and paper**. For each pai
 
 If too few students have matching marks for a subject or quiz pair, I'll leave it out rather than report a shaky comparison. Quiz-to-major comparisons and first-to-second-paper comparisons need separate treatment.
 
+## Deciding what counts as a disagreement
+
+For each comparable pair of quizzes, I'll record whether the raw percentage and the chosen relative-standing measure went up, down or stayed the same for each student.
+
+A **directional disagreement** is when one rises while the other falls. Ties and very small changes will be reported separately instead of being forced into an increase or decrease. I'll settle any tolerance rules before calculating the result, so I don't choose a cutoff just because it makes the graph more interesting.
+
+For standardized scores, I need a usable spread of marks; if everyone in the matched group has the same score, the standard deviation is zero and a z-score cannot be calculated. Percentiles may also be coarse or tied in a small group. The write-up will say when those comparisons aren't informative.
+
+The output will include the number of **students**, the number of eligible **quiz pairs**, and the number of **student-level paired changes**. Several observations from one student are not the same as several independent participants. Initially, I'll describe the patterns rather than treating every change as independent evidence for a statistical test.
+
 ## Checks before conclusions
 
 - Confirm unique participant count, complete/legible reports and permission to use records.
@@ -39,4 +49,10 @@ Retrospective prediction benchmarking may be considered later, but it has **not*
 
 A lower average doesn't necessarily mean an exam was harder. It could also reflect preparation, marking, the material tested or who submitted records. Relative standing in this sample is not an official college rank.
 
-The study can show where two descriptions of performance disagree. It cannot tell me a student's underlying ability or which description is automatically more useful. The participants are from one college, so I won't treat the findings as representative of Bangladesh.
+The study can show where two descriptions of performance disagree. It cannot tell me a student's underlying ability or which description is automatically more useful. A relative measure can also hide things: someone's standing may change because of who is in the comparison group, not only because of the student's own work. The participants are from one college, so I won't treat the findings as representative of Bangladesh.
+
+## What the findings might be used for
+
+One practical question is whether a dashboard ought to show raw and relative trends together, or whether that would make things more confusing. The report-card analysis alone can't answer whether students, teachers or parents would understand or benefit from such a display. That would need a separate interface study or feedback from actual users.
+
+I'll keep that distinction clear when discussing how this work relates to the Bangladesh Academic Analytics System.
