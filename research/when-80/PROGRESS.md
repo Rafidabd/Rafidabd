@@ -4,7 +4,7 @@ I'm studying results from Notre Dame College's HSC 2026 batch. What started as a
 
 **October 31, 2026**
 
-I've received records from 35 students. The marks have come in different forms: photos of report cards, partial histories, and notes copied from paper. I've been putting them into a consistent format so I can compare the same subject and quiz round across students.
+My working file has 20 student histories transcribed from supplied report cards and 11 more entered from my handwritten notes. I also made four synthetic histories while testing the software. Those four aren't student observations, and the handwritten-note entries still need checking against their sources. I've been putting the marks into a consistent format so I can compare the same subject and quiz round across students.
 
 One thing I had to sort out early was how NDC calculates its report-card totals. The Sent-Up results include marks from earlier assessments, so they aren't three independent exams. I'm keeping the individual quiz and exam marks separate from those weighted totals.
 
