@@ -40,18 +40,13 @@ For me, as someone building education software, the question is also about what 
 
 A rise in relative standing isn't proof that a student learned more. It might reflect how everyone else performed. That's why I don't want the answer to be "replace marks with ranks." I want to know when the two views disagree and what each one can actually tell us.
 
-**Progress on October 31, 2026:** I've received records from **35 students**. I'm still checking the submissions for readable marks, missing entries and overlap between assessments. I haven't calculated the study's results yet.
+**First results, October 31, 2026:** I've received records from **35 students**. For a first analysis I used **20 report-card-backed histories** and excluded software-test examples and additional records that still need source reconciliation. In **148 of 814 comparisons (18.2%)**, raw marks and relative standing changed in opposite directions. The finding is preliminary; [the full breakdown is here](RESULTS.md).
 
-## Planned analysis
+## The first calculation
 
-1. Separate the **actual quiz and exam marks** from the **weighted totals** on the report cards. The totals reuse earlier assessment components and cannot be treated as separate independent exams.
-2. Reconstruct subject-by-subject histories and compare like with like wherever possible.
-3. For each pair of comparable quizzes, use the **same participating students** to calculate relative standing in each assessment. Standardized scores and percentiles are two measures I plan to compare.
-4. Count cases where raw marks and relative standing change in different directions. Then check whether those cases depend on missing data or the comparison method.
+I compared consecutive quizzes within the same subject, using students with a mark in both rounds to calculate their relative standing. The matched groups had between 14 and 18 students. The result is an early descriptive count, not a claim about everyone at NDC. I also checked the pattern with a minimum-change threshold and standardized scores; details are in the [results note](RESULTS.md).
 
-A result showing **frequent disagreement** could make a case for testing richer ways of displaying score history. A result showing **little disagreement** would be useful too: it might mean the extra measure adds little for the quizzes studied. I don't want to decide that in advance.
-
-These are planned steps, not completed results. Details and open decisions are in the [methods note](METHODS.md).
+I still need to recheck transcriptions and expand the observed sample carefully before drawing stronger conclusions. I haven't tested the dashboard interface with students yet.
 
 ## Limits
 
@@ -65,6 +60,6 @@ This question came out of building my **Bangladesh Academic Analytics System**, 
 
 I've published a [source snapshot](../../projects/bangladesh-academic-analytics-system/README.md) without the local student data. The newest local changes aren't all in that copy.
 
-**Read:** [Research website](https://rafidabd.github.io/Rafidabd/when-80/) · [Short abstract](BRIEF.md) · [Method and limitations](METHODS.md) · [Progress log](PROGRESS.md)
+**Read:** [First results](RESULTS.md) · [Research website](https://rafidabd.github.io/Rafidabd/when-80/) · [Short abstract](BRIEF.md) · [Method and limitations](METHODS.md) · [Progress log](PROGRESS.md)
 
-*Data collection is ongoing. The analysis is not finished.*
+*This is an early descriptive analysis, not a finished paper.*
