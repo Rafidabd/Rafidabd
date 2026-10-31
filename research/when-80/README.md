@@ -43,7 +43,7 @@ This is a single-institution study. I won't use it to make claims about all Bang
 
 This question came out of building my **Bangladesh Academic Analytics System**, a Python/Flask project for storing academic histories and analyzing performance over time. It has modules for history, trends, risk, heuristic prediction and more. The research is a way to question an assumption behind parts of that work: that scores from different assessments can be compared directly.
 
-The latest software version isn't public yet. I want to check its sample data and setup instructions before releasing the code.
+I've published a [source snapshot](../../projects/bangladesh-academic-analytics-system/README.md) without the local student data. The newest local changes aren't all in that copy.
 
 **Read:** [One-page brief](BRIEF.md) · [Method and limitations](METHODS.md) · [Progress log](PROGRESS.md) · [Visual explanation (HTML file)](../../docs/when-80/index.html)
 
