@@ -1,0 +1,165 @@
+{% extends "base.html" %}
+
+{% block title %}Student Insights{% endblock %}
+
+{% block content %}
+
+<h1>Student Insights</h1>
+
+{% if result["status"] == "error" %}
+
+    <section class="evaluation-section">
+
+        <p>{{ result["message"] }}</p>
+
+    </section>
+
+{% else %}
+
+    <h2>Student {{ result["student_id"] }}</h2>
+
+
+    <section class="evaluation-section">
+
+        <h2>Insight Summary</h2>
+
+        <p>
+            <strong>Current Status:</strong>
+            {{ result["insight_sections"]["current_status"] }}
+        </p>
+
+        <p>
+            <strong>Trend:</strong>
+            {{ result["insight_sections"]["trend"] }}
+        </p>
+
+        <p>
+            <strong>Risk:</strong>
+            {{ result["insight_sections"]["risk"] }}
+        </p>
+
+        <p>
+            <strong>Prediction:</strong>
+            {{ result["insight_sections"]["prediction"] }}
+        </p>
+
+        <p>
+            <strong>Overall Summary:</strong>
+            {{ result["insight_sections"]["summary"] }}
+        </p>
+
+    </section>
+
+
+    <section class="evaluation-section">
+
+        <h2>Key Strengths</h2>
+
+        {% if result["key_strengths"] %}
+
+            <ul>
+
+                {% for strength in result["key_strengths"] %}
+
+                    <li>{{ strength }}</li>
+
+                {% endfor %}
+
+            </ul>
+
+        {% else %}
+
+            <p>No major strengths were identified.</p>
+
+        {% endif %}
+
+    </section>
+
+
+    <section class="evaluation-section">
+
+        <h2>Key Concerns</h2>
+
+        {% if result["key_concerns"] %}
+
+            <ul>
+
+                {% for concern in result["key_concerns"] %}
+
+                    <li>{{ concern }}</li>
+
+                {% endfor %}
+
+            </ul>
+
+        {% else %}
+
+            <p>No major concerns were identified.</p>
+
+        {% endif %}
+
+    </section>
+
+
+    <section class="evaluation-section">
+
+        <h2>Priority Signals</h2>
+
+        {% if result["priority_signals"] %}
+
+            <ul>
+
+                {% for signal in result["priority_signals"] %}
+
+                    <li>{{ signal }}</li>
+
+                {% endfor %}
+
+            </ul>
+
+        {% else %}
+
+            <p>No priority signals were identified.</p>
+
+        {% endif %}
+
+    </section>
+
+
+    <section class="evaluation-section">
+
+        <h2>Intervention Suggestions</h2>
+
+        {% if result["intervention_suggestions"] %}
+
+            <ul>
+
+                {% for suggestion in result["intervention_suggestions"] %}
+
+                    <li>{{ suggestion }}</li>
+
+                {% endfor %}
+
+            </ul>
+
+        {% else %}
+
+            <p>
+                No intervention suggestions were generated from
+                the available analysis.
+            </p>
+
+        {% endif %}
+
+    </section>
+
+{% endif %}
+
+
+<br>
+
+<a href="{{ url_for('academic_intelligence') }}">
+    Back to Academic Intelligence
+</a>
+
+{% endblock %} 
