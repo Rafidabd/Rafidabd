@@ -16,11 +16,11 @@ The prediction made me wonder what I'd missed. I couldn't tell from the mark alo
 
 I'm comparing raw percentage scores with standing among the *participating students* who have marks for both quizzes. I'm not assuming either measure is automatically fairer or more accurate. I want to see where they agree, where they disagree and whether the answer changes when I use percentiles instead of standardized scores.
 
-I also want to understand what the findings might mean for my software. That is a question for a later interface experiment, not something the report-card data alone can answer.
+I also want to understand what the findings might mean for my software. That is a question for a later interface experiment, not something the report card data alone can answer.
 
 ## The records
 
-The study uses historical records from NDC's **HSC 2026 cohort**. I'm collecting the three report cards issued during a student's time at the college: **Term, Sent-Up 1 and Sent-Up 2**. Together, these include monthly quiz rounds and major examinations.
+The study uses historical records from NDC's **HSC 2026 cohort**. I'm collecting the three report cards issued during a student's time at the college: **Term, Sent Up 1 and Sent Up 2**. Together, these include monthly quiz rounds and major examinations.
 
 NDC has three departments: Science, Humanities and Business Studies, with different subject combinations. I'll make comparisons within suitable departments, subjects and papers rather than mixing unrelated exams.
 
@@ -40,11 +40,11 @@ For me, as someone building education software, the question is also about what 
 
 A rise in relative standing isn't proof that a student learned more. It might reflect how everyone else performed. That's why I don't want the answer to be "replace marks with ranks." I want to know when the two views disagree and what each one can actually tell us.
 
-**First results, October 31, 2026:** My working file has **20 histories entered from supplied report cards**, **11 more entered from handwritten notes** that still need source-by-source checks, and **4 synthetic histories** I used for software testing. Only the first 20 were used in the pilot. In **148 of 814 comparisons (18.2%)** where both measures changed, raw marks and relative standing moved in opposite directions. This is preliminary; [the full breakdown is here](RESULTS.md).
+**First results, October 31, 2026:** My working file has **20 histories entered from supplied report cards**, **11 more entered from handwritten notes** that still need checks against each original record, and **4 synthetic histories** I used for software testing. Only the first 20 were used in the pilot. In **148 of 814 comparisons (18.2%)** where both measures changed, raw marks and relative standing moved in opposite directions. This is preliminary; [the full breakdown is here](RESULTS.md).
 
 ## The first calculation
 
-I compared consecutive quizzes within the same subject, using students with a mark in both rounds to calculate their relative standing. The matched groups had between 14 and 18 students. The result is an early descriptive count, not a claim about everyone at NDC. I also checked the pattern with a minimum-change threshold and standardized scores; details are in the [results note](RESULTS.md).
+I compared consecutive quizzes within the same subject, using students with a mark in both rounds to calculate their relative standing. The matched groups had between 14 and 18 students. The result is an early descriptive count, not a claim about everyone at NDC. I also checked the pattern with a minimum change threshold and standardized scores; details are in the [results note](RESULTS.md).
 
 I still need to recheck transcriptions and expand the observed sample carefully before drawing stronger conclusions. I haven't tested the dashboard interface with students yet.
 
@@ -52,7 +52,7 @@ I still need to recheck transcriptions and expand the observed sample carefully 
 
 A lower average in the participating sample does **not** prove that a question paper was harder. Preparation, marking, syllabus coverage and sample composition can all matter. Standing in a volunteer sample is not an official NDC rank, and neither raw nor relative scores measure a student's true ability. A relative measure can be misleading too, especially when only a small or changing group of students is available.
 
-This is a single-institution study. I won't use it to make claims about all Bangladeshi students.
+This is a study at one college. I won't use it to make claims about all Bangladeshi students.
 
 ## The related software
 
