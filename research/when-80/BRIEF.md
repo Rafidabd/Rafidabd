@@ -12,7 +12,7 @@ This ongoing study uses historical academic records from Notre Dame College's HS
 
 This matters to how academic progress is discussed by students, teachers and families, and to the design of tools that summarize performance over time. It does not follow that relative standing is more accurate or fairer. The participating students form a limited, volunteer sample at one college, and their scores cannot establish the true difficulty of an examination.
 
-Data collection is underway. **The records have not yet been fully checked or analyzed, and there are no findings to report.** The eventual results may help me decide which comparisons are worth testing in the next version of my Bangladesh Academic Analytics System.
+Data collection is underway, with records received from **35 students** as of October 31, 2026. **The records have not yet been fully checked or analyzed, and there are no findings to report.** The eventual results may help me decide which comparisons are worth testing in the next version of my Bangladesh Academic Analytics System.
 
 **Main research question:** For the same students taking comparable quizzes, how often do changes in raw marks and relative standing point in opposite directions?
 
