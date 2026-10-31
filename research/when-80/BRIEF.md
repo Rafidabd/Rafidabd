@@ -1,21 +1,19 @@
 # When 80 Doesn't Mean the Same
 
-*A study of raw marks and relative standing across examinations at Notre Dame College, Dhaka*
+*A pilot study of raw marks and relative standing across NDC quizzes*
 
-**Independent research · Work in progress · October 31, 2026**
+**Independent research · Preliminary results · October 31, 2026**
 
 ## Abstract
 
-While building my academic analytics system, I used past marks to predict that I would score at least 80 on a mathematics quiz. I scored 55, the highest mark in my group. The prediction was wrong, but it also raised a question I hadn't considered carefully: when marks change between examinations, does a student's standing among others taking those examinations necessarily change in the same direction?
+My academic analytics program once predicted I would score at least 80 on a mathematics quiz. I scored 55, the highest in my group. That result led me to ask whether falling marks always mean a student has fallen behind others taking the same assessments.
 
-This ongoing study uses historical academic records from Notre Dame College's HSC 2026 cohort. Students' Term, Sent-Up 1 and Sent-Up 2 report cards contain results from recurring quizzes and major examinations. The analysis will separate individual assessment marks from weighted report totals, then compare raw-score changes with changes in standing among the same participating students on pairs of comparable quizzes within a subject. I plan to examine how often the measures move in opposite directions and whether those patterns depend on using standardized scores or percentiles.
+For this first analysis, I transcribed quiz scores from 20 report-card-backed histories from Notre Dame College's HSC 2026 batch. I compared consecutive quizzes within the same subject and report period, keeping only students with numerical marks for both quizzes. I then compared each student's raw-score change with the change in their percentile position among those same students, assigning tied scores a midpoint rank.
 
-This matters to how academic progress is discussed by students, teachers and families, and to the design of tools that summarize performance over time. It does not follow that relative standing is more accurate or fairer. The participating students form a limited, volunteer sample at one college, and their scores cannot establish the true difficulty of an examination.
+Across 57 eligible quiz pairs, there were 936 matched student–quiz comparisons. Both measures changed in 814; **148 (18.2%) moved in opposite directions**. With minimum changes of five marks and ten percentile points, the count was 79 of 628 qualifying comparisons (12.6%). Using standardized scores, it was 142 of 850 (16.7%).
 
-Data collection is underway, with records received from **35 students** as of October 31, 2026. **The records have not yet been fully checked or analyzed, and there are no findings to report.** The eventual results may help me decide which comparisons are worth testing in the next version of my Bangladesh Academic Analytics System.
+The finding shows a difference between two ways of describing progress in this small participating group. It does not establish examination difficulty or show that relative standing is more accurate or fairer. The observations repeat across the same students, and the sample is small and self-selected. No population-level estimate or significance test is claimed.
 
-**Main research question:** For the same students taking comparable quizzes, how often do changes in raw marks and relative standing point in opposite directions?
+I have received records from 35 students in total. This pilot uses only the 20 histories traceable to report-card images in my working file; software-test examples and additional offline-reported records were excluded pending source reconciliation. The next step is to check the transcriptions again and investigate how the result might inform my Bangladesh Academic Analytics System.
 
-**Current stage:** Data collection and study design. No publication or external review claimed.
-
-[Research website](https://rafidabd.github.io/Rafidabd/when-80/) · [Overview](README.md) · [Method notes](METHODS.md) · [Progress](PROGRESS.md)
+[Read the results](RESULTS.md) · [Research overview](README.md) · [Method notes](METHODS.md) · [Research website](https://rafidabd.github.io/Rafidabd/when-80/)
