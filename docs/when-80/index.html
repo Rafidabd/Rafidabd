@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="An independent study at Notre Dame College, Dhaka, comparing raw exam marks and relative standing. Read the research question, method and progress.">
+<meta name="description" content="A Notre Dame College student research pilot on exam marks and relative standing, including matched-quiz charts, findings and methods.">
 <meta name="author" content="Rafid">
 <meta name="theme-color" content="#102039">
 <meta property="og:title" content="When 80 Doesn't Mean the Same">
@@ -37,28 +37,225 @@ nav{background:var(--navy);color:#fff}nav .wrap{display:flex;align-items:center;
 .possible p{margin:0;font-size:14px}
 .section .narrow{max-width:760px}
 @media(max-width:780px){.hero .wrap,.split,.status-grid{grid-template-columns:1fr;gap:30px}.stepgrid,.context-grid,.question-grid,.people-grid,.possible{grid-template-columns:1fr}.hero{padding:65px 0}.section{padding:55px 0}}@media(max-width:390px){nav .wrap{flex-direction:column;padding:12px 0}nav a{margin:0 7px;font-size:11px}nav div div{display:flex;flex-wrap:wrap;justify-content:center} .metrics{grid-template-columns:1fr}}@media print{nav,.actions{display:none}.hero{background:#fff;color:#111;padding:20px 0}.lead,.detail{color:#222}.demo{box-shadow:none;border:1px solid #aaa}.section{padding:20px 0}.footer{background:#fff;color:#222}.footer p{color:#333}}
+
+/* First results: deliberately simple charts made with HTML and CSS */
+html{scroll-padding-top:88px}
+nav{position:sticky;top:0;z-index:20;border-bottom:1px solid rgba(255,255,255,.13)}
+.nav-links{display:flex;flex-wrap:wrap;align-items:center;gap:4px 14px}
+.nav-links a{margin-left:0;text-decoration:none;padding:5px 0}
+.nav-links a:hover,.nav-links a:focus-visible{color:var(--gold)}
+a:focus-visible{outline:3px solid #dbac55;outline-offset:4px}
+.hero .wrap{grid-template-columns:1.15fr .85fr}
+.hero-snapshot{background:#fffdfa;color:#172840;border-radius:13px;padding:26px;box-shadow:0 22px 50px rgba(0,0,0,.18)}
+.snapshot-top{display:flex;justify-content:space-between;gap:12px;align-items:center;border-bottom:1px solid #e1e4e7;padding-bottom:13px;color:#566a7f;font-size:11px;font-weight:700;letter-spacing:.08em}
+.snapshot-top span:last-child{color:#956d25;letter-spacing:0}
+.snapshot-number{font-size:clamp(64px,7.5vw,94px);font-weight:800;line-height:1.05;letter-spacing:-.085em;color:#183f5b;margin:26px 0 8px;font-variant-numeric:tabular-nums}
+.hero-snapshot p{font-size:16px;line-height:1.55;color:#344d66;margin:0 0 16px}
+.snapshot-note{padding-top:14px;border-top:1px solid #e1e4e7;font-size:13px;color:#67798a;line-height:1.6}
+.snapshot-link{display:inline-block;margin-top:12px;color:#155a79;text-underline-offset:3px;font-size:13px;font-weight:650}
+.pilot-section{background:linear-gradient(140deg,#102039 0%,#143b53 100%);color:#edf3f8;padding:74px 0 82px}
+.pilot-section .label{color:#9acddd}
+.pilot-intro{display:flex;justify-content:space-between;gap:36px;align-items:end;margin-bottom:28px}
+.pilot-intro h2{font-size:clamp(34px,5vw,54px);letter-spacing:-.05em;line-height:1.12;margin:14px 0 0}
+.pilot-intro h2 em{font-style:normal;color:#f0c781}
+.pilot-intro p{max-width:490px;color:#cad9e7;font-size:15px;line-height:1.72;margin:0}
+.pilot-grid{display:grid;grid-template-columns:minmax(0,.87fr) minmax(0,1.13fr);gap:18px}
+.pilot-panel{background:#fdfcf9;color:#172840;border:1px solid rgba(220,221,218,.9);border-radius:12px;padding:25px;min-width:0}
+.pilot-panel-heading,.pilot-example-head{display:flex;justify-content:space-between;gap:12px;align-items:start}
+.pilot-panel h3{font-size:19px;line-height:1.25;letter-spacing:-.025em;margin:0}
+.pilot-small-label{font-size:10px;letter-spacing:.09em;font-weight:800;white-space:nowrap;color:#8c6c2e}
+.pilot-panel-desc{color:#617185;font-size:13px;line-height:1.6;margin:10px 0 16px}
+.pilot-ring-row{display:flex;align-items:center;gap:18px;margin:22px 0}
+.pilot-ring{width:185px;height:185px;flex:0 0 185px;border-radius:50%;background:conic-gradient(#dbac55 0 18.2%,#e5e3de 18.2% 100%);display:grid;place-items:center;transform:rotate(-90deg)}
+.pilot-ring-inside{width:143px;height:143px;border-radius:50%;background:#fdfcf9;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(90deg)}
+.pilot-ring-inside strong{font-size:37px;letter-spacing:-.055em;line-height:1.15;font-variant-numeric:tabular-nums;color:#183f5b}
+.pilot-ring-inside small{font-size:11px;color:#687b8d;text-align:center}
+.pilot-ring-copy{min-width:0}
+.pilot-ring-copy>strong{display:block;font-size:35px;letter-spacing:-.055em;line-height:1.2;font-variant-numeric:tabular-nums}
+.pilot-ring-copy>strong span{font-size:18px;letter-spacing:-.015em;font-weight:500}
+.pilot-ring-copy p{font-size:13px;color:#42566a;margin:5px 0}
+.pilot-ring-copy>small{display:block;color:#6a7a87;font-size:11px;line-height:1.55}
+.pilot-number-strip{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #e4e7e9;border-bottom:1px solid #e4e7e9;margin:15px 0;padding:16px 0;gap:15px}
+.pilot-number-strip div{display:flex;flex-direction:column;gap:2px}
+.pilot-number-strip strong{font-size:25px;color:#153f5e;font-variant-numeric:tabular-nums}
+.pilot-number-strip span{font-size:11px;color:#66788b;line-height:1.45}
+.pilot-panel-foot{font-size:12px;color:#65798b;line-height:1.65;margin:0}
+.pilot-bars{margin:22px 0 0}
+.pilot-bar-row{display:grid;grid-template-columns:87px minmax(0,1fr) 111px;align-items:center;gap:11px;margin:13px 0}
+.pilot-bar-name{font-size:12px;font-weight:650;color:#203951}
+.pilot-bar-track{height:19px;border-radius:4px;background:#e8edf0;overflow:hidden}
+.pilot-bar-fill{height:100%;background:linear-gradient(90deg,#1d7097,#1c537b);border-radius:4px}
+.pilot-bar-value{font-size:13px;font-weight:750;font-variant-numeric:tabular-nums;white-space:nowrap;color:#173a55}
+.pilot-bar-value small{color:#6e8091;font-weight:500;margin-left:3px;font-size:11px}
+.pilot-bar-scale{display:flex;justify-content:space-between;margin:16px 110px 0 98px;font-size:10px;color:#65778b}
+.pilot-bars figcaption{margin-top:17px;padding-top:13px;border-top:1px solid #e4e7e9;font-size:11px;line-height:1.6;color:#63768a}
+.pilot-example{margin-top:18px}
+.pilot-example-head p{font-size:12px;color:#67798b;margin:4px 0 0;text-align:right}
+.pilot-example-head h3{margin-top:4px;font-size:24px}
+.pilot-example-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.pilot-example-visual{padding:22px;background:#f6f8f8;border:1px solid #e1e6e7;border-radius:10px;min-width:0}
+.pilot-example-label{font-size:11px;font-weight:800;letter-spacing:.08em;color:#314e63}
+.pilot-example-label span{display:block;font-weight:450;letter-spacing:0;font-size:11px;color:#718394;margin-top:3px}
+.pilot-example-numbers{display:flex;align-items:center;gap:17px;margin:14px 0 11px;font-variant-numeric:tabular-nums}
+.pilot-example-numbers strong{font-size:clamp(32px,4vw,50px);letter-spacing:-.065em;line-height:1.1;color:#173d59}
+.pilot-example-numbers strong:last-child{color:#aa7b22}
+.pilot-example-numbers span{font-size:25px;color:#7a8b97}
+.pilot-mini-bars{height:134px;display:flex;justify-content:center;gap:36px;align-items:flex-end;border-bottom:1px solid #becbd3;margin-top:15px}
+.pilot-mini-bars>div{width:90px;height:100%;display:flex;align-items:center;justify-content:flex-end;flex-direction:column;position:relative}
+.pilot-mini-bars>div>span{font-size:12px;color:#34556e;font-weight:700}
+.pilot-mini-bars .pilot-mini-bar{width:60px;background:#5c8bac;border-radius:5px 5px 0 0}
+.pilot-mini-bars .pilot-mini-bar-last{background:#d5a954}
+.pilot-mini-bars small{position:absolute;top:100%;padding-top:6px;color:#687b8d;font-size:11px;white-space:nowrap}
+.pilot-percentile{height:114px;position:relative;margin:51px 16px 0}
+.pilot-percentile-line{position:absolute;top:29px;left:0;right:0;height:3px;background:#cdd6dc}
+.pilot-percentile-shift{position:absolute;top:29px;height:3px;background:#d1a14c}
+.pilot-percentile-dot{position:absolute;top:21px;width:19px;height:19px;transform:translateX(-50%);background:#7697af;border:3px solid #f7f9fa;border-radius:50%;box-shadow:0 0 0 1px #60829b}
+.pilot-percentile-dot-last{background:#d2a44c;box-shadow:0 0 0 1px #af7f30}
+.pilot-percentile-dot span{position:absolute;top:-24px;left:50%;transform:translateX(-50%);font-size:11px;font-weight:700;color:#27465f}
+.pilot-percentile-ticks{display:flex;justify-content:space-between;position:absolute;top:50px;left:0;right:0;font-size:10px;color:#788998}
+.pilot-example-note{font-size:13px;color:#566e82;line-height:1.65;border-top:1px solid #e2e6e8;margin:30px 0 0;padding-top:16px}
+.pilot-bottom{display:flex;align-items:center;justify-content:space-between;gap:34px;margin-top:18px;padding:20px 24px;border:1px solid rgba(195,219,233,.35);border-radius:10px}
+.pilot-bottom h3{font-size:16px;color:#fff;margin:0 0 5px}
+.pilot-bottom p{margin:0;color:#c4d4e0;font-size:13px;line-height:1.7;max-width:680px}
+.pilot-bottom a{flex:0 0 auto;color:#173246;background:#f0c781;border-radius:6px;text-decoration:none;padding:12px 16px;font-size:12px;font-weight:750;text-align:center;max-width:220px}
+.pilot-bottom a:hover,.actions a:hover{filter:brightness(1.06)}
+@media(max-width:1050px){.pilot-ring{width:146px;height:146px;flex-basis:146px}.pilot-ring-inside{width:112px;height:112px}.pilot-ring-inside strong{font-size:31px}.pilot-ring-copy>strong{font-size:29px}}
+@media(max-width:900px){.pilot-intro{align-items:start;flex-direction:column;gap:15px}.pilot-grid{grid-template-columns:1fr}.pilot-ring{width:185px;height:185px;flex-basis:185px}.pilot-ring-inside{width:143px;height:143px}.pilot-ring-inside strong{font-size:37px}.pilot-bar-row{grid-template-columns:105px minmax(0,1fr) 120px}}
+@media(max-width:780px){.hero .wrap{grid-template-columns:1fr}.hero-snapshot{max-width:650px}.pilot-section{padding:54px 0}.pilot-bottom{align-items:stretch;flex-direction:column}.pilot-bottom a{max-width:100%}}
+@media(max-width:640px){.nav-links{gap:1px 10px}.nav-links a{font-size:11px}.pilot-panel{padding:20px}.pilot-example-grid{grid-template-columns:1fr;gap:25px}.pilot-example-head{flex-direction:column}.pilot-example-head p{text-align:left}.pilot-bar-row{grid-template-columns:72px minmax(0,1fr) 96px;gap:7px}.pilot-bar-name,.pilot-bar-value{font-size:11px}.pilot-bar-value small{font-size:10px;margin-left:2px}.pilot-bar-track{height:16px}.pilot-bar-scale{margin-left:79px;margin-right:97px}.pilot-ring{width:146px;height:146px;flex-basis:146px}.pilot-ring-inside{width:112px;height:112px}.pilot-ring-inside strong{font-size:31px}.pilot-ring-copy>strong{font-size:27px}.pilot-example-visual{padding:16px}}
+@media(max-width:390px){.pilot-ring-row{flex-direction:column;align-items:start}.pilot-bar-row{grid-template-columns:68px minmax(0,1fr) 89px}.pilot-bar-value small{display:block}.pilot-bar-scale{margin-right:88px;margin-left:73px}.pilot-example-numbers{gap:12px}.pilot-example-numbers strong{font-size:34px}}
+@media print{nav{display:none}.pilot-section{background:#fff;color:#15253a}.pilot-intro p,.pilot-bottom p{color:#3f5265}.pilot-bottom{border-color:#ccd5dd}.pilot-bottom h3{color:#15253a}.pilot-panel{break-inside:avoid;border:1px solid #bbc7d1}.pilot-ring{-webkit-print-color-adjust:exact;print-color-adjust:exact}.pilot-bar-fill{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+
 </style></head>
 <body>
-<nav><div class="wrap"><strong>RAFID / INDEPENDENT RESEARCH</strong><div><a href="#question">Story</a><a href="#context">NDC context</a><a href="#method">Method</a><a href="#people">Who it's for</a><a href="#results">First results</a><a href="#progress">Progress</a></div></div></nav>
-<header class="hero"><div class="wrap"><div>
-<div class="kicker">Notre Dame College · HSC 2026 · First results</div>
-<h1>When <em>80</em> Doesn't<br>Mean the Same</h1>
-<p class="lead">A falling mark doesn't always mean a falling position.</p>
-<p class="detail">My analytics program once predicted at least 80 on a mathematics quiz. I got 55—highest in my group. I started collecting old NDC report cards to find out how often a student's raw score and standing among others tell different stories.</p>
-<div class="actions"><a href="https://github.com/Rafidabd/Rafidabd/blob/main/research/when-80/RESULTS.md">Read the first results</a><a href="#method">See how I compared the marks</a></div>
-</div><div class="demo">
-<div class="demo-h"><span>FIRST FINDINGS · OCTOBER 31, 2026</span><span class="tag">20 STUDENTS · PILOT</span></div>
-<div class="actual-pilot"><small>OPPOSITE-DIRECTION CHANGES</small><strong>18.2%</strong><p><b>148 of 814</b> comparisons where both raw marks and sample-relative standing changed.</p></div>
-<h2>One real Mathematics example</h2>
-<p>The same 17 students had marks for both quizzes. One student's score fell, but their standing among that group rose.</p>
-<div class="metrics"><div class="metric"><small>RAW MARKS</small><b>44 → 40</b><p>Four fewer marks.</p></div><div class="metric"><small>MATCHED-GROUP PERCENTILE</small><b>29th → 65th</b><p>A higher position relative to the same group.</p></div></div>
-<p class="fine"><strong>What this does not prove:</strong> that the second quiz was harder, or that relative standing is fairer. These are preliminary comparisons in a small volunteer sample, not official NDC ranks. <a href="https://github.com/Rafidabd/Rafidabd/blob/main/research/when-80/RESULTS.md">Details and limitations</a></p>
-</div></div></header>
+<nav aria-label="Main navigation"><div class="wrap"><strong>RAFID / INDEPENDENT RESEARCH</strong><div class="nav-links"><a href="#results">Findings</a><a href="#question">Story</a><a href="#context">NDC context</a><a href="#method">Method</a><a href="#progress">Progress</a></div></div></nav>
+<header class="hero"><div class="wrap">
+  <div class="hero-copy">
+    <div class="kicker">Notre Dame College · HSC 2026 · Independent research</div>
+    <h1>When <em>80</em> Doesn't<br>Mean the Same</h1>
+    <p class="lead">Can a lower mark still mean you're doing better relative to the same group?</p>
+    <p class="detail">My academic analytics program once predicted at least 80 on a mathematics quiz. I got 55—the highest in my group. I started looking through old NDC report cards to find out what a mark leaves out.</p>
+    <div class="actions"><a href="#results">See what I found</a><a href="#question">Where the question came from</a></div>
+  </div>
+  <div class="hero-snapshot" aria-label="Summary of the first research findings">
+    <div class="snapshot-top"><span>FIRST RESULTS</span><span>20 student histories</span></div>
+    <div class="snapshot-number">18.2%</div>
+    <p><strong>148 out of 814</strong> clear changes went in opposite directions: raw marks one way, sample-relative standing the other.</p>
+    <div class="snapshot-note">An early finding, not a conclusion about all NDC students.</div>
+    <a class="snapshot-link" href="https://github.com/Rafidabd/Rafidabd/blob/main/research/when-80/RESULTS.md">Read the calculation and limitations</a>
+  </div>
+</div></header>
 <main>
-<section class="section" id="question"><div class="wrap split"><div><div class="label">01 / Where it started</div><h2>A result I couldn't explain with my model.</h2></div><div><p>While building the Bangladesh Academic Analytics System, I used past marks to estimate my next mathematics quiz result. The program predicted at least 80. I got 55. That was the highest mark in my group.</p><p>The score made me wonder what the program had missed. Exams don't always test the same things or get marked in quite the same way. What can we really conclude from a rise or fall in marks?</p><div class="quote">When a student's marks change, how often does their standing among others taking the same assessment move in another direction?</div></div></div></section>
+<section class="pilot-section" id="results" aria-labelledby="results-heading"><div class="wrap">
+  <div class="pilot-intro">
+    <div><div class="label">01 / First results · October 31, 2026</div><h2 id="results-heading">Findings <em>so far.</em></h2></div>
+    <p>For this first check, I used 20 histories I could trace to report cards. I compared consecutive quizzes in the same subject, using only students who had marks in both rounds.</p>
+  </div>
+  <div class="pilot-grid">
+    <article class="pilot-panel pilot-overall">
+      <div class="pilot-panel-heading"><h3>Where the two measures disagreed</h3><span class="pilot-small-label">PILOT STUDY</span></div>
+      <p class="pilot-panel-desc">When both the mark and percentile standing changed, how often did they move in opposite directions?</p>
+      <div class="pilot-ring-row">
+        <div class="pilot-ring" role="img" aria-label="18.2 percent of 814 clear changes moved in opposite directions"><div class="pilot-ring-inside"><strong>18.2%</strong><small>of clear changes</small></div></div>
+        <div class="pilot-ring-copy"><strong>148 <span>of 814</span></strong><p>Clear changes with opposite directions.</p><small>The same students can contribute more than one comparison.</small></div>
+      </div>
+      <div class="pilot-number-strip"><div><strong>57</strong><span>matched quiz pairs</span></div><div><strong>936</strong><span>student–quiz comparisons in total</span></div></div>
+      <p class="pilot-panel-foot">The 18.2% is out of 814 comparisons where both measures changed. The other 122 had no change in at least one measure.</p>
+    </article>
+    <article class="pilot-panel pilot-subjects">
+      <div class="pilot-panel-heading"><h3>How it varied by subject</h3><span class="pilot-small-label">7 SUBJECTS</span></div>
+      <p class="pilot-panel-desc">Share of clear changes that moved in opposite directions, shown with the actual counts.</p>
+      <figure class="pilot-bars" aria-label="Subject comparison chart">
+        <div class="pilot-bar-row">
+    <span class="pilot-bar-name">ICT</span>
+    <div class="pilot-bar-track" role="img" aria-label="ICT: 29.7% (11 out of 37)">
+      <div class="pilot-bar-fill" style="width:84.857%"></div>
+    </div>
+    <span class="pilot-bar-value">29.7% <small>11/37</small></span>
+  </div>
+<div class="pilot-bar-row">
+    <span class="pilot-bar-name">Bangla</span>
+    <div class="pilot-bar-track" role="img" aria-label="Bangla: 24.6% (30 out of 122)">
+      <div class="pilot-bar-fill" style="width:70.286%"></div>
+    </div>
+    <span class="pilot-bar-value">24.6% <small>30/122</small></span>
+  </div>
+<div class="pilot-bar-row">
+    <span class="pilot-bar-name">Mathematics</span>
+    <div class="pilot-bar-track" role="img" aria-label="Mathematics: 20.3% (27 out of 133)">
+      <div class="pilot-bar-fill" style="width:58.000%"></div>
+    </div>
+    <span class="pilot-bar-value">20.3% <small>27/133</small></span>
+  </div>
+<div class="pilot-bar-row">
+    <span class="pilot-bar-name">English</span>
+    <div class="pilot-bar-track" role="img" aria-label="English: 20.1% (28 out of 139)">
+      <div class="pilot-bar-fill" style="width:57.429%"></div>
+    </div>
+    <span class="pilot-bar-value">20.1% <small>28/139</small></span>
+  </div>
+<div class="pilot-bar-row">
+    <span class="pilot-bar-name">Chemistry</span>
+    <div class="pilot-bar-track" role="img" aria-label="Chemistry: 19.0% (24 out of 126)">
+      <div class="pilot-bar-fill" style="width:54.286%"></div>
+    </div>
+    <span class="pilot-bar-value">19.0% <small>24/126</small></span>
+  </div>
+<div class="pilot-bar-row">
+    <span class="pilot-bar-name">Biology</span>
+    <div class="pilot-bar-track" role="img" aria-label="Biology: 13.4% (17 out of 127)">
+      <div class="pilot-bar-fill" style="width:38.286%"></div>
+    </div>
+    <span class="pilot-bar-value">13.4% <small>17/127</small></span>
+  </div>
+<div class="pilot-bar-row">
+    <span class="pilot-bar-name">Physics</span>
+    <div class="pilot-bar-track" role="img" aria-label="Physics: 8.5% (11 out of 130)">
+      <div class="pilot-bar-fill" style="width:24.286%"></div>
+    </div>
+    <span class="pilot-bar-value">8.5% <small>11/130</small></span>
+  </div>
+        <div class="pilot-bar-scale"><span>0%</span><span>10%</span><span>20%</span><span>30%</span><span>35%</span></div>
+        <figcaption>ICT has fewer eligible quiz comparisons. The differences between subjects aren't evidence that one is harder.</figcaption>
+      </figure>
+    </article>
+  </div>
+  <article class="pilot-panel pilot-example">
+    <div class="pilot-example-head"><div><span class="pilot-small-label">A CLOSER LOOK</span><h3>One Mathematics example</h3></div><p>Quiz 2 → Quiz 3 · Same 17 students in both</p></div>
+    <p class="pilot-panel-desc">One student's mark dropped by four points, while their position among those 17 students rose. This is the mismatch I wanted to understand.</p>
+    <div class="pilot-example-grid">
+      <div class="pilot-example-visual">
+        <div class="pilot-example-label">RAW MARKS <span>out of 100</span></div>
+        <div class="pilot-example-numbers"><strong>44</strong><span aria-hidden="true">→</span><strong>40</strong></div>
+        <div class="pilot-mini-bars" aria-label="Mathematics Quiz 2 score 44; Quiz 3 score 40" role="img">
+          <div><span>44</span><div class="pilot-mini-bar" style="height:44%"></div><small>Quiz 2</small></div>
+          <div><span>40</span><div class="pilot-mini-bar pilot-mini-bar-last" style="height:40%"></div><small>Quiz 3</small></div>
+        </div>
+      </div>
+      <div class="pilot-example-visual">
+        <div class="pilot-example-label">MATCHED-GROUP PERCENTILE <span>within these 17 students</span></div>
+        <div class="pilot-example-numbers"><strong>29th</strong><span aria-hidden="true">→</span><strong>65th</strong></div>
+        <div class="pilot-percentile" role="img" aria-label="Sample-relative percentile standing rose from 29.4 to 64.7 out of 100">
+          <div class="pilot-percentile-line"></div>
+          <div class="pilot-percentile-shift" style="left:29.4%;width:35.3%"></div>
+          <div class="pilot-percentile-dot" style="left:29.4%"><span>29.4</span></div>
+          <div class="pilot-percentile-dot pilot-percentile-dot-last" style="left:64.7%"><span>64.7</span></div>
+          <div class="pilot-percentile-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
+        </div>
+      </div>
+    </div>
+    <p class="pilot-example-note">The matched group's mean fell from 56.9 to 33.6. That doesn't prove the second quiz was harder; it shows why the student's mark doesn't tell the whole story.</p>
+  </article>
+  <div class="pilot-bottom">
+    <div><h3>A result worth checking further, not a final answer.</h3><p>With a stricter cutoff (at least five marks and ten percentile points), I still found 79 disagreements among 628 qualifying comparisons (12.6%). The sample is small and self-selected; these aren't official NDC ranks or independent observations.</p></div>
+    <a href="https://github.com/Rafidabd/Rafidabd/blob/main/research/when-80/RESULTS.md">See the full results, counts and limitations</a>
+  </div>
+</div></section>
+
+<section class="section" id="question"><div class="wrap split"><div><div class="label">02 / Where it started</div><h2>A result I couldn't explain with my model.</h2></div><div><p>While building the Bangladesh Academic Analytics System, I used past marks to estimate my next mathematics quiz result. The program predicted at least 80. I got 55. That was the highest mark in my group.</p><p>The score made me wonder what the program had missed. Exams don't always test the same things or get marked in quite the same way. What can we really conclude from a rise or fall in marks?</p><div class="quote">When a student's marks change, how often does their standing among others taking the same assessment move in another direction?</div></div></div></section>
 <section class="section pale" id="context">
   <div class="wrap">
-    <div class="label">02 / Why start at NDC?</div>
+    <div class="label">03 / Why start at NDC?</div>
     <div class="split">
       <div><h2>A report card holds more than one kind of score.</h2></div>
       <div><p>At Notre Dame College in Dhaka, students take monthly quizzes alongside larger internal examinations. Their Term, Sent-Up 1 and Sent-Up 2 reports bring those results together. These are college assessments, not national HSC board-exam results. The papers aren't identical, and the combined totals can reuse earlier marks.</p><p>That gives me a specific problem to investigate with real, repeated assessments. It's also why I need to separate the original exam marks from the weighted report totals before comparing anything.</p></div>
@@ -73,20 +270,20 @@ nav{background:var(--navy);color:#fff}nav .wrap{display:flex;align-items:center;
 </section>
 <section class="section" id="questions">
   <div class="wrap">
-    <div class="label">03 / The research question</div>
+    <div class="label">04 / The research question</div>
     <h2>When do the two stories diverge?</h2>
     <p class="section-lead">A raw mark tells us what a student earned. Their relative standing tells us how that mark compares with other participating students on the same exam. Neither answers every question by itself.</p>
-    <div class="focus"><small>Main question</small><p>For the same students taking comparable quizzes, how often do raw marks and relative standing change in opposite directions?</p><div>This will be measured, not assumed. The analysis may find frequent disagreement, little disagreement or patterns that vary by subject.</div></div>
+    <div class="focus"><small>Main question</small><p>For the same students taking comparable quizzes, how often do raw marks and relative standing change in opposite directions?</p><div>The first pilot has found disagreements. What I still need to learn is how consistently they appear across different subjects and methods.</div></div>
     <div class="question-grid">
-      <div class="question-card"><h3>Does the answer depend on the method?</h3><p>I'll check whether the picture changes when relative standing is measured with percentiles rather than standardized scores, and when incomplete records are excluded.</p></div>
+      <div class="question-card"><h3>Does the answer depend on the method?</h3><p>I checked percentiles and standardized scores in the pilot. The counts aren't identical, so I want to examine which comparisons change and why.</p></div>
       <div class="question-card"><h3>What should my software do with that information?</h3><p>If the two measures sometimes tell different stories, I want to consider how a dashboard could show that uncertainty rather than quietly choosing a single judgment. Testing a redesigned interface would be a later step.</p></div>
     </div>
   </div>
 </section>
-<section class="section pale" id="method"><div class="wrap"><div class="label">04 / Planned method</div><h2>Follow the same students across exams.</h2><p>I'm collecting Term, Sent-Up 1 and Sent-Up 2 report cards from the NDC HSC 2026 cohort. They include individual quiz marks and major-exam results. The report cards' weighted totals will be treated separately from the component exams.</p><div class="stepgrid"><div class="step"><small>01</small><h3>Read the records</h3><p>Check the reports and record subjects, papers, quizzes, examination scores and missing values without guessing.</p></div><div class="step"><small>02</small><h3>Keep the group consistent</h3><p>Compare quizzes within the same subject using students whose marks are available for both assessments.</p></div><div class="step"><small>03</small><h3>Check the two trends</h3><p>Look for cases where raw marks and relative standing change in opposite directions, and see whether the pattern holds under other measures.</p></div></div><div class="caution"><strong>Important limit:</strong> relative standing in a volunteer sample isn't an official NDC rank or a direct measure of exam difficulty. The aim is to test descriptions, not prove a student's true ability.</div></div></section>
+<section class="section pale" id="method"><div class="wrap"><div class="label">05 / How I compared the marks</div><h2>Follow the same students across exams.</h2><p>I collected Term, Sent-Up 1 and Sent-Up 2 report-card marks from NDC's HSC 2026 cohort. For the pilot, I compared consecutive quizzes within the same subject and period. I kept weighted report totals separate from individual assessment marks.</p><div class="stepgrid"><div class="step"><small>01</small><h3>Read the records</h3><p>Check the reports and record subjects, papers, quizzes, examination scores and missing values without guessing.</p></div><div class="step"><small>02</small><h3>Keep the group consistent</h3><p>Compare quizzes within the same subject using students whose marks are available for both assessments.</p></div><div class="step"><small>03</small><h3>Check the two trends</h3><p>Look for cases where raw marks and relative standing change in opposite directions, and see whether the pattern holds under other measures.</p></div></div><div class="caution"><strong>Important limit:</strong> relative standing in a volunteer sample isn't an official NDC rank or a direct measure of exam difficulty. The aim is to test descriptions, not prove a student's true ability.</div></div></section>
 <section class="section" id="people">
   <div class="wrap">
-    <div class="label">05 / Who might care?</div>
+    <div class="label">06 / Who might care?</div>
     <h2>These numbers are read by people.</h2>
     <p class="section-lead">In a college setting, marks can shape how students describe themselves and how others talk about their progress. I'm not claiming my study will change any decisions. But it could help make the questions behind those decisions clearer.</p>
     <div class="people-grid">
@@ -100,31 +297,18 @@ nav{background:var(--navy);color:#fff}nav .wrap{display:flex;align-items:center;
 </section>
 <section class="section pale" id="meaning">
   <div class="wrap">
-    <div class="label">06 / Why the answer matters</div>
-    <h2>Either outcome teaches me something.</h2>
-    <p class="section-lead">I don't want to build the research around a conclusion I've already decided is true.</p>
+    <div class="label">07 / What this doesn't settle</div>
+    <h2>Finding a mismatch isn't the end of the question.</h2>
+    <p class="section-lead">The first analysis found disagreements, but it hasn't told me which measure is better or how a student should interpret the difference.</p>
     <div class="possible">
-      <article><h3>If disagreements appear often</h3><p>Then a single raw-score trend might leave out useful context in this sample. It would be worth testing whether showing both measures makes an academic dashboard more informative.</p></article>
-      <article><h3>If disagreements are rare</h3><p>That matters too. It would suggest that the extra measure often adds little for the quizzes studied, or that any disagreement depends on specific subjects and assessments.</p></article>
+      <article><h3>What the pilot suggests</h3><p>Some raw-score trends leave out how the rest of the participating group performed. That is a reason to explore displaying both views in my software, not a reason to replace one with the other.</p></article>
+      <article><h3>What I still can't say</h3><p>A higher percentile isn't proof of better learning, and a lower group average doesn't establish exam difficulty. I need better source checks and more feedback before deciding what belongs in a useful dashboard.</p></article>
     </div>
     <p class="quote">The point isn't to replace marks with ranking. It's to find out when one number leaves out part of the story.</p>
     <div class="caution"><strong>A boundary I don't want to cross:</strong> comparison with a volunteer sample isn't the same as an official rank, and a lower sample average doesn't prove an exam was harder. A student's standing can change because the rest of the group changes. This study cannot explain individual circumstances or rank students and schools across Bangladesh.</div>
   </div>
 </section>
-<section class="section pale" id="results"><div class="wrap">
-<div class="label">07 / First results · October 31, 2026</div>
-<h2>Sometimes the two trends really do disagree.</h2>
-<p class="section-lead">I ran a first comparison using 20 students' report-card-backed histories. For each pair of consecutive quizzes, I compared raw marks with standing among the same students who had marks for both quizzes.</p>
-<div class="metrics" style="margin:24px 0 20px">
-<div class="metric"><small>OPPOSITE DIRECTIONS</small><b>148 / 814</b><p>18.2% of the comparisons where both measures changed.</p></div>
-<div class="metric"><small>QUIZ PAIRS</small><b>57</b><p>Consecutive quiz pairs within the same subject and report period.</p></div>
-<div class="metric"><small>STUDENTS</small><b>20</b><p>Matched groups of 14–18, not the whole college.</p></div>
-</div>
-<p>In one Mathematics example, a student's mark went from 44 to 40, but their standing in the matched group improved from the 29th to the 65th percentile. The raw score alone missed what happened around it.</p>
-<p>With a minimum change of five marks and ten percentile points, I still found 79 disagreements in 628 comparisons (12.6%). That gives me something to explore further; it doesn't establish which paper was harder or which measure is fairer.</p>
-<div class="caution"><strong>The limit:</strong> this is a small, self-selected group. Several comparisons come from the same students, so they aren't independent observations. Sample standing isn't an official NDC rank. Generated software-test records were excluded.</div>
-<p style="margin-top:18px"><a href="https://github.com/Rafidabd/Rafidabd/blob/main/research/when-80/RESULTS.md">Read the full results and how I calculated them</a></p>
-</div></section>
+
 <section class="section" id="progress"><div class="wrap status-grid"><div>
 <div class="label">08 / October 31, 2026</div><h2>What exists today</h2>
 <p>I've received records from <strong>35 students</strong>. The first descriptive comparison uses the <strong>20 histories I could trace to supplied report cards</strong>. I'm still checking the remaining material and the transcriptions.</p>
