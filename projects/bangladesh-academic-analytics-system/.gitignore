@@ -1,0 +1,13 @@
+# Student records and local state
+data/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.env
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
