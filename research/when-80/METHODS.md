@@ -12,6 +12,8 @@ Each report contains weighted combined results, which reuse quiz marks and somet
 
 Each extracted row will identify an anonymous participant code, department, subject/paper, assessment, quiz/major-exam type, mark and maximum mark. Missing or illegible values will be recorded rather than guessed.
 
+As of October 31, 2026, records have been received from 35 students. I still need to confirm how many records are complete and how many students can be matched for each assessment pair.
+
 Report-card photos and original Google Form responses will stay in restricted storage. Google Forms sign-in for uploads doesn't make the collection process fully anonymous. No report cards, names, IDs, participant-level marks or response screenshots are being published here.
 
 ## How I'll compare scores
