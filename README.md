@@ -1,41 +1,44 @@
-# Hi, I'm Rafid
+# Hi, I'm Rafid 👋
 
-I'm a student at Notre Dame College, Dhaka. I started learning Python through small scripts, and somewhere along the way I got interested in a harder question: what can we actually learn from a student's marks over time?
+I'm a student at Notre Dame College, Dhaka. I started learning Python by making small programs, but I've become more interested in building things that help me understand a problem properly.
 
-A lot of my work now comes back to that question. I also play chess and have spent much of my college life organizing things with the Notre Dame Chess Club.
+Most of my coding time goes into student performance and education. Outside of that, I play chess and have spent a big part of college organizing events with the Notre Dame Chess Club.
 
-## The project I've spent the most time on
+## The two things I'm working on most
 
-### [Bangladesh Academic Analytics System](projects/bangladesh-academic-analytics-system/README.md)
+| Software | Research |
+| :--- | :--- |
+| **[Bangladesh Academic Analytics System](projects/bangladesh-academic-analytics-system/README.md)** | **[When 80 Doesn't Mean the Same](research/when-80/README.md)** |
+| A Python and Flask application for exploring academic records, trends, recurring weaknesses and rule-based predictions. | An ongoing study of how raw exam marks compare with students' standing among others who took the same assessments. |
+| [Browse the source](projects/bangladesh-academic-analytics-system/README.md) | [Research overview](research/when-80/README.md) · [Short brief](research/when-80/BRIEF.md) |
 
-**Python · Flask · HTML/CSS · JavaScript · JSON**
+### How one led to the other
 
-This began as a command-line program for student records. I kept adding things I wanted it to explain: trends across exams, recurring weak subjects, changes in consistency, risk flags and simple predictions based on past results. Eventually I moved it to Flask so I could explore the results through a web interface.
+My analytics program once estimated that I'd score at least 80 on a mathematics quiz. I scored 55, which turned out to be the highest mark in my group.
 
-The calculations are rule-based and configurable, not machine learning. The [public source](projects/bangladesh-academic-analytics-system/README.md) is a cleaned snapshot of the project; some newer work is still local.
+It was a pretty good reminder that a prediction can be wrong for reasons the code doesn't understand. I had been comparing marks across exams without paying enough attention to how different the exams themselves could be.
 
-## Research I'm working on
+That's what led me to start *When 80 Doesn't Mean the Same*. I'm collecting historical report cards from NDC's HSC 2026 cohort and looking at where raw-score trends and relative standing tell different stories. Data collection is underway, so I'm not presenting findings yet.
 
-### [When 80 Doesn't Mean the Same](research/when-80/README.md)
-*A study of examination marks and student progress at Notre Dame College*
+[Read the method](research/when-80/METHODS.md) · [See the progress notes](research/when-80/PROGRESS.md)
 
-My program once estimated that I'd score at least 80 on a mathematics quiz. I got 55—the highest mark in my group. It made me wonder whether I was treating scores from very different exams as though they meant the same thing.
+### More about the software
 
-I'm now collecting historical report cards from NDC's HSC 2026 cohort. The idea is to compare changes in raw marks with changes in standing among students who took the same assessments, and see where the two tell different stories.
+The Academic Analytics System began as a command-line project. I gradually added student histories, subject analysis, trend and risk rules, and heuristic predictions before building a Flask interface around it.
 
-The study is ongoing. I haven't published results.
+The public code is a cleaned snapshot of an earlier version. I'm still working on the newer local project, including admission-preparation features. I haven't called the prediction system machine learning because it isn't.
 
-[Research overview](research/when-80/README.md) · [Short brief](research/when-80/BRIEF.md) · [Method notes](research/when-80/METHODS.md) · [Progress notes](research/when-80/PROGRESS.md)
+## Other code
 
-## Other repositories
+| Repository | What I worked on |
+| :--- | :--- |
+| [Student Performance Tracker](https://github.com/Rafidabd/student-performance-tracker) | One of my earlier Python projects for student records, rankings, charts and CSV reports. |
+| [Expense Tracker CLI](https://github.com/Rafidabd/expense-tracker-cli) | A command-line expense tracker that saves records and summarizes spending. |
 
-| Project | What it is |
-| --- | --- |
-| [Student Performance Tracker](https://github.com/Rafidabd/student-performance-tracker) | An earlier Python CLI for student records, rankings, charts and CSV reports. |
-| [Expense Tracker CLI](https://github.com/Rafidabd/expense-tracker-cli) | A small terminal program for recording expenses and looking at category totals. |
+I mostly work in **Python**, with **Flask, HTML, CSS, JavaScript, Jinja2, JSON and CSV** for the web and data parts of my projects. I've also used **Matplotlib, Git and testing tools** while learning how to organize larger programs.
 
-## Tools I've worked with
+## Away from the keyboard
 
-Python, Flask, HTML, CSS, JavaScript, Jinja2, JSON, CSV, Matplotlib, Git and pytest.
+Chess has been a constant for me, from playing tournaments to helping run them. I joined the Notre Dame Chess Club as a volunteer and later became its president. Running events taught me a different kind of problem-solving: keeping people informed, making decisions when plans change, and getting everyone through the day.
 
-I'm still learning how to test, document and structure bigger programs properly. I keep the earlier projects around because they show what I figured out along the way.
+I'm still learning a lot, and I like having the earlier projects here alongside the newer ones. They show how I got from small Python exercises to problems I now want to spend much more time on.
