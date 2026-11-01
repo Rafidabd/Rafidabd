@@ -2,7 +2,7 @@
 
 *An ongoing study of examination marks and student progress at Notre Dame College, Dhaka.*
 
-**Independent research · HSC 2026 cohort · October 2026**
+**Independent research · HSC 2026 cohort records · October 2026**
 
 ## Why I started
 
