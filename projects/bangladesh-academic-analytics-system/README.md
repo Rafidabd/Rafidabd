@@ -6,7 +6,7 @@ The current code covers student records, exam datasets, subject averages, rankin
 
 ## A note on this public copy
 
-This is a **code snapshot**, not the latest local version or a finished deployment. The files are being copied from my earlier project archive and cleaned for public viewing. It does not contain the personal records or results submitted for my research.
+This is a **code snapshot**, not the latest local version or a finished deployment. The files come from an earlier version of my project and have been cleaned for public viewing. It does not contain the personal records or results submitted for my research.
 
 ## Running locally
 
@@ -34,7 +34,7 @@ The data files start empty. Add fictional records locally to try the app.
 - `config/`: subjects, grading rules and analysis thresholds
 - `modules/`: data management, analytics and the academic intelligence modules
 - `templates/`, `static/`: the web interface
-- `examples/`, `scripts/`: empty data templates and initial setup
+- `scripts/`: creates empty local data files for testing
 
 ## Why I started researching the problem
 
