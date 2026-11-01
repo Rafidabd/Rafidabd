@@ -40,7 +40,7 @@ For me, as someone building education software, the question is also about what 
 
 A rise in relative standing isn't proof that a student learned more. It might reflect how everyone else performed. That's why I don't want the answer to be "replace marks with ranks." I want to know when the two views disagree and what each one can actually tell us.
 
-**First results, October 31, 2026:** My working file has **20 histories entered from supplied report cards**, **11 more entered from handwritten notes** that still need checks against each original record, and **4 synthetic histories** I used for software testing. Only the first 20 were used in the pilot. In **148 of 814 comparisons (18.2%)** where both measures changed, raw marks and relative standing moved in opposite directions. This is preliminary; [the full breakdown is here](RESULTS.md).
+**First results, October 31, 2026:** My working file has **31 genuine student histories**: **20 entered from supplied report cards** and **11 from handwritten notes** that still need source checks. I also have **4 synthetic histories** used only for software testing. Only the first 20 were used in the pilot. In **148 of 814 comparisons (18.2%)** where both measures changed, raw marks and relative standing moved in opposite directions. This is preliminary; [the full breakdown is here](RESULTS.md).
 
 ## The first calculation
 
