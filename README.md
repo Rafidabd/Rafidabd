@@ -10,7 +10,7 @@ Most of my coding time goes into student performance and education. Outside of t
 | :--- | :--- |
 | **[Bangladesh Academic Analytics System](projects/bangladesh-academic-analytics-system/README.md)** | **[When 80 Doesn't Mean the Same](research/when-80/README.md)** |
 | A Python and Flask application for exploring academic records, trends, recurring weaknesses and predictions based on rules. | An ongoing study of how raw exam marks compare with students' standing among others who took the same assessments. |
-| [Browse the source](projects/bangladesh-academic-analytics-system/) | [Open the research website](https://rafidabd.github.io/Rafidabd/when-80/) · [Read the brief](research/when-80/BRIEF.md) |
+| [Try the interactive demo](https://aas-admissions-demo-rfd.onrender.com) · [Browse the source](projects/bangladesh-academic-analytics-system/) | [Open the research website](https://rafidabd.github.io/Rafidabd/when-80/) · [Read the brief](research/when-80/BRIEF.md) |
 
 ### How one led to the other
 
@@ -26,7 +26,7 @@ That's what led me to start *When 80 Doesn't Mean the Same*. I've been collectin
 
 The Academic Analytics System began as a command line project. I gradually added student histories, subject analysis, trend and risk rules, and heuristic predictions before building a Flask interface around it.
 
-The public code is a cleaned snapshot of an earlier version. I'm still working on the newer local project, including admission preparation features. I haven't called the prediction system machine learning because it isn't.
+I also have an [interactive demo](https://aas-admissions-demo-rfd.onrender.com) where visitors can explore the student, admission preparation and educator tools with fictional sample data, without signing up. It's a preview, not a place for real student records. The public source linked above is a cleaned snapshot of an earlier version, not the complete code behind the newer demo. I haven't called the prediction system machine learning because it isn't.
 
 ## Other code
 
