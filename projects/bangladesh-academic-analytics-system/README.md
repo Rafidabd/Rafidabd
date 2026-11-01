@@ -6,7 +6,7 @@ The current code covers student records, exam datasets, subject averages, rankin
 
 ## A note on this public copy
 
-This is a **code snapshot**, not the latest local version or a finished deployment. The files come from an earlier version of my project and have been cleaned for public viewing. It does not contain the personal records or results submitted for my research.
+This is a **code snapshot** of an earlier version, not the complete code behind my newer [interactive AAS demo](https://aas-admissions-demo-rfd.onrender.com). The demo lets visitors try student, admission preparation and educator tools using fictional data, without creating a real account. The files here have been cleaned for public viewing and do not contain personal records or results submitted for my research.
 
 ## Running locally
 
