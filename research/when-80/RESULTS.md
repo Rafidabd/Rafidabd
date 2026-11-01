@@ -62,7 +62,7 @@ For these students and quizzes, a raw score trend sometimes leaves out what happ
 
 It isn't enough to say relative standing is fairer, or that a falling mark means the exam was harder. A volunteer group's standing isn't an official NDC rank. With only 20 histories, some incomplete, the results may change as I check and add records. Also, repeated comparisons from the same people aren't independent observations, so I'm not using this percentage as a population estimate or claiming statistical significance.
 
-The wider working file currently has **20 histories transcribed from supplied report cards**, **11 entered from my handwritten offline notes**, and **4 synthetic test histories**. The 11 histories entered from offline notes still need checks against their sources, and the synthetic rows aren't student observations. This first calculation uses only the **20 histories traced to report cards**; the other 15 were excluded.
+The wider working file currently has **31 genuine student histories**: **20 transcribed from supplied report cards** and **11 entered from my handwritten offline notes**. It also has **4 synthetic test histories**. The 11 histories entered from offline notes still need checks against their sources, and the synthetic rows aren't student observations. This first calculation uses only the **20 histories traced to report cards**; the other 15 were excluded.
 
 This is a first descriptive result, not a finished paper. My next step is to check the extraction with a second pass, look more carefully at missing marks and ties, and see whether showing both measures actually makes my analytics software easier to understand.
 
