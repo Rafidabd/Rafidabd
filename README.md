@@ -4,15 +4,14 @@ I'm a student at Notre Dame College, Dhaka. I started learning Python by making 
 
 Most of my coding time goes into student performance and education. Outside of that, I play chess and have spent a big part of college organizing events with the Notre Dame Chess Club.
 
-## What I'm building
+## Main work
 
-**[Bangladesh Academic Analytics System (AAS)](projects/bangladesh-academic-analytics-system/README.md)** — A Python and Flask project for tracking academic records over time, with subject analysis, trends, risk rules and heuristic predictions. [Try the newer interactive demo](https://aas-admissions-demo-rfd.onrender.com) · [Browse the earlier public code snapshot](projects/bangladesh-academic-analytics-system/). The demo uses fictional sample records; the snapshot does not include all of the demo's newer features.
-
-**[When 80 Doesn't Mean the Same](research/when-80/README.md)** — My ongoing study of raw exam marks and relative standing among students who took the same assessments. [Research website](https://rafidabd.github.io/Rafidabd/when-80/) · [First pilot results](research/when-80/RESULTS.md) · [Method and limitations](research/when-80/METHODS.md).
-
-**[NIRAPOD](projects/nirapod/README.md)** — A Bangla-first, English-supported prototype for examining suspicious messages, online claims and scam warning signs. [Read the project overview](projects/nirapod/README.md). The source is still private, and I haven't released a public demo.
-
-**[unwind.](https://github.com/Rafidabd/unwind-playground)** — A browser playground I started while waiting for other projects to load. Break things, build marble runs, paint a wall, mess with chess pieces, or go destroy Saturn. [Play it](https://rafidabd.github.io/unwind-playground/) · [Browse the code](https://github.com/Rafidabd/unwind-playground).
+| Software | Research |
+| :--- | :--- |
+| **[Bangladesh Academic Analytics System (AAS)](projects/bangladesh-academic-analytics-system/README.md)** | **[When 80 Doesn't Mean the Same](research/when-80/README.md)** |
+| A Python and Flask project for looking at academic records over time: subject analysis, trends, risk rules, and predictions based on configurable weights. | An ongoing NDC study asking when a student's raw mark and their standing among the same participating students tell different stories. |
+| [Try the interactive demo](https://aas-admissions-demo-rfd.onrender.com) · [Browse the public code snapshot](projects/bangladesh-academic-analytics-system/) | [Research website](https://rafidabd.github.io/Rafidabd/when-80/) · [First results](research/when-80/RESULTS.md) · [Methods](research/when-80/METHODS.md) |
+| *The demo uses fictional records. The public source is an earlier version, not all the code behind the newer demo.* | *Ongoing research. The published pilot uses 20 report-card histories, not every entry in my working file.* |
 
 ### How one led to the other
 
@@ -29,6 +28,15 @@ That's what led me to start *When 80 Doesn't Mean the Same*. I've been collectin
 The Academic Analytics System began as a command line project. I gradually added student histories, subject analysis, trend and risk rules, and heuristic predictions before building a Flask interface around it.
 
 I also have an [interactive demo](https://aas-admissions-demo-rfd.onrender.com) where visitors can explore the student, admission preparation and educator tools with fictional sample data, without signing up. It's a preview, not a place for real student records. The public source linked above is a cleaned snapshot of an earlier version, not the complete code behind the newer demo. I haven't called the prediction system machine learning because it isn't.
+
+## Other things I've been building
+
+| NIRAPOD | unwind. |
+| :--- | :--- |
+| **[Digital trust prototype](projects/nirapod/README.md)** | **[Browser playground](https://github.com/Rafidabd/unwind-playground)** |
+| A Bangla-first, English-supported tool I'm working on for examining scam messages, suspicious posts, and online claims. It shows warning signs and possible sources to check, not automatic truth verdicts. | I got bored waiting for my actual projects to load, made a tiny universe, and kept adding things. Now there's a rage room, marble machines, chess pieces, painting, and planets to mess with. |
+| [Read what it does](projects/nirapod/README.md) | [Play it](https://rafidabd.github.io/unwind-playground/) · [Browse the code](https://github.com/Rafidabd/unwind-playground) |
+| *Prototype · source private · no public demo yet* | *Live website · source public* |
 
 ## Earlier code
 
