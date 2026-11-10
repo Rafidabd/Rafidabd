@@ -28,10 +28,14 @@ The Academic Analytics System began as a command line project. I gradually added
 
 I also have an [interactive demo](https://aas-admissions-demo-rfd.onrender.com) where visitors can explore the student, admission preparation and educator tools with fictional sample data, without signing up. It's a preview, not a place for real student records. The public source linked above is a cleaned snapshot of an earlier version, not the complete code behind the newer demo. I haven't called the prediction system machine learning because it isn't.
 
-## Other code
+## Other projects
 
-| Repository | What I worked on |
+Not everything I work on is about exam marks.
+
+| Project | What it is |
 | :--- | :--- |
+| **[NIRAPOD](projects/nirapod/README.md)** | A Bangla-first digital trust prototype for looking into suspicious posts, online claims and scam messages. The source is private while I'm still working on it. |
+| **[unwind.](https://rafidabd.github.io/unwind-playground/)** | A browser playground I started while waiting for other projects to load. Smash things, build marble runs, paint, mess with chess pieces or destroy planets. [Code](https://github.com/Rafidabd/unwind-playground) |
 | [Student Performance Tracker](https://github.com/Rafidabd/student-performance-tracker) | One of my earlier Python projects for student records, rankings, charts and CSV reports. |
 | [Expense Tracker CLI](https://github.com/Rafidabd/expense-tracker-cli) | A command line expense tracker that saves records and summarizes spending. |
 
