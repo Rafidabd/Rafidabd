@@ -60,11 +60,11 @@ Using standardized scores instead of percentiles gave **142 cases with changes i
 
 For these students and quizzes, a raw score trend sometimes leaves out what happened in the rest of the participating group. That's enough for me to question a dashboard that shows only a rising or falling mark.
 
-It isn't enough to say relative standing is fairer, or that a falling mark means the exam was harder. A volunteer group's standing isn't an official NDC rank. With only 20 histories, some incomplete, the results may change as I check and add records. Also, repeated comparisons from the same people aren't independent observations, so I'm not using this percentage as a population estimate or claiming statistical significance.
+It isn't enough to say relative standing is fairer, or that a falling mark means the exam was harder. A volunteer group's standing isn't an official NDC rank. This pilot uses only 20 histories, some incomplete; its results may change when I review the extraction and rerun the analysis using the expanded observed dataset. Also, repeated comparisons from the same people aren't independent observations, so I'm not using this percentage as a population estimate or claiming statistical significance.
 
-The wider working file contains **20 histories transcribed from supplied report cards**, **11 entered from handwritten notes** and **4 synthetic test histories**. The working-file total of 35 is not the number of students analyzed. The 11 histories entered from offline notes still need checks against their sources, and the synthetic rows aren't student observations. This first calculation uses only the **20 histories traced to report cards**; the other 15 were excluded.
+**Record status, November 14, 2026:** I have 31 observed student histories: **20 transcribed from supplied report cards** and **11 entered from handwritten notes and subsequently checked against their source records**. The working file also contains **4 synthetic test histories**, which are not student observations. The 35 total working-file entries must not be described as 35 participants. This October 31 pilot calculation uses only the **original 20 report-card histories**; the 11 additional verified histories and four synthetic examples were not included in these results.
 
-This is a first descriptive result, not a finished paper. My next step is to check the extraction with a second pass, look more carefully at missing marks and ties, and see whether showing both measures actually makes my analytics software easier to understand.
+This is a first descriptive result, not a finished paper. My next step is to rerun the comparisons with the 31 observed student histories, check the extraction with a second pass, look more carefully at missing marks and ties, and see whether showing both measures actually makes my analytics software easier to understand.
 
 *The underlying report cards and individual student marks are private.*
 

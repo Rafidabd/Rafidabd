@@ -1,6 +1,6 @@
 # Method notes
 
-*Method for the first exploratory comparison, with further checks still underway. Updated October 31, 2026.*
+*Method for the first exploratory comparison (October 31, 2026); record-status note updated November 14, 2026. The published pilot figures are unchanged.*
 
 ## Records and measures
 
@@ -12,7 +12,7 @@ Each report contains weighted combined results, which reuse quiz marks and somet
 
 Each extracted row identifies an anonymous participant code, department, subject/paper, assessment, quiz/major exam type, mark and maximum mark. Missing or illegible values will be recorded rather than guessed.
 
-As of October 31, 2026, the working file contains 20 histories transcribed from report cards, 11 additional histories entered from handwritten notes, and four synthetic examples created for software testing. The first analysis uses only the 20 histories traced to report cards. I haven't included the histories entered from offline notes while their individual sources still need checking, and synthetic entries are never treated as observations. Matched groups for eligible quiz pairs contained 14 to 18 students.
+The October 31, 2026 pilot used 20 histories transcribed from supplied report cards. As of November 14, I have also checked 11 histories originally entered from handwritten notes against their source records. The observed research set now includes **31 student histories**, but the published pilot has **not** been recomputed using all 31. Four synthetic examples in the working file were created solely for software testing and are not student observations. Matched groups in the published pilot contained 14 to 18 students.
 
 Report card photos and original Google Form responses will stay in restricted storage. Google Forms login for uploads doesn't make the collection process fully anonymous. No report cards, names, IDs, participant level marks or response screenshots are being published here.
 

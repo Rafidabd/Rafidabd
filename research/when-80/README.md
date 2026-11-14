@@ -40,13 +40,15 @@ For me, as someone building education software, the question is also about what 
 
 A rise in relative standing isn't proof that a student learned more. It might reflect how everyone else performed. That's why I don't want the answer to be "replace marks with ranks." I want to know when the two views disagree and what each one can actually tell us.
 
-**First results, October 31, 2026:** My working file has **20 histories transcribed from supplied report cards**, **11 more entered from handwritten notes that still need source checks**, and **4 synthetic histories used only for software testing**. Only the 20 report-card histories were used in the pilot. In **148 of 814 comparisons (18.2%)** where both measures changed, raw marks and relative standing moved in opposite directions. This is preliminary; [the full breakdown is here](RESULTS.md).
+**First results, October 31, 2026:** The published pilot used **20 histories transcribed from supplied report cards**. In **148 of 814 comparisons (18.2%)** where both measures changed, raw marks and relative standing moved in opposite directions. This is preliminary; [the full breakdown is here](RESULTS.md).
+
+**Record update, November 14, 2026:** I have since checked **11 additional histories** originally entered from handwritten notes against their source records. This brings the observed research set to **31 student histories**. The working file also has **4 synthetic software-test histories**, which are not student observations. The published pilot results above still use only the original 20 histories and have not been recalculated with all 31.
 
 ## The first calculation
 
 I compared consecutive quizzes within the same subject, using students with a mark in both rounds to calculate their relative standing. The matched groups had between 14 and 18 students. The result is an early descriptive count, not a claim about everyone at NDC. I also checked the pattern with a minimum change threshold and standardized scores; details are in the [results note](RESULTS.md).
 
-I still need to recheck transcriptions and expand the observed sample carefully before drawing stronger conclusions. I haven't tested the dashboard interface with students yet.
+Although I have checked the additional handwritten histories against their sources, I still need to rerun the comparisons using the full observed set and review the transcriptions carefully before drawing stronger conclusions. I haven't tested the dashboard interface with students yet.
 
 ## Limits
 

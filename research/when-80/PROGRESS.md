@@ -2,6 +2,10 @@
 
 I'm studying results from Notre Dame College's HSC 2026 batch. What started as a question about one bad mathematics prediction has turned into a much bigger job of going through old report cards.
 
+**November 14, 2026**
+
+I have now checked the 11 histories originally entered from handwritten notes against their source records. This brings the observed student histories to 31: 20 transcribed from supplied report cards and 11 source-checked handwritten histories. Four additional synthetic histories remain separate software-test entries, not student observations. The published October 31 pilot still uses only the original 20 report-card histories, and I have not recalculated its figures for all 31.
+
 **October 31, 2026**
 
 My working file has 20 student histories transcribed from supplied report cards and 11 more entered from my handwritten notes. I also made four synthetic histories while testing the software. Those four aren't student observations, and the entries from handwritten notes still need checking against their sources. I've been putting the marks into a consistent format so I can compare the same subject and quiz round across students.
